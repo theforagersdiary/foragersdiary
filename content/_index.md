@@ -32,11 +32,11 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "min-h-screen"
       background:
-        color: "teal"
+        color: ""
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: "plant.jpg"
+          filename: "plant 2.jpg"
           size: cover
           parallax: false
           filters:
