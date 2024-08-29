@@ -37,7 +37,7 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: "plant 2.jpg"
-          size: cover
+          size: contain
           parallax: false
           filters:
             brightness: 0.4
