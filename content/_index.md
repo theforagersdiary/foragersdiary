@@ -33,10 +33,10 @@ sections:
       css_class: "min-h-screen"
       background:
         color: ""
-        text_color_light: true
+        text_color_light: 
         image:
           # Add your image background to `assets/media/`.
-          filename: "plant 2.jpg"
+          filename: ""
           size: contain
           parallax: false
           filters:
