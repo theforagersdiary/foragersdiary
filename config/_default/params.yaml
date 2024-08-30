@@ -18,7 +18,7 @@ marketing:
     description: 'Foraging guides and resources and foraging courses'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-VSR77TXTGQ'
     google_tag_manager: ''
     microsoft_clarity: ''
     baidu_tongji: ''
@@ -43,7 +43,7 @@ header:
     button:
       enable: false
       text: "Contact"
-      url: "https://hugoblox.com/templates/details/docs/"
+      url: ""
     show_search: true
     show_theme_chooser: true
 
@@ -70,13 +70,13 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
-    content_dir: 'starters/documentation/content'
-    branch: 'main'
+    url: ''
+    content_dir: ''
+    branch: ''
   feedback:
     responses:
-      positive: 'Glad to hear it! [Any ideas for improvements?](https://github.com/<USERNAME>/<REPO>/issues/new).'
-      negative: 'Sorry to hear that. [Please tell us how we can improve](https://github.com/<USERNAME>/<REPO>/issues/new).'
+      positive: ''
+      negative: ''
   comment:
     provider: ''
     giscus:
