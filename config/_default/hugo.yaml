@@ -20,12 +20,13 @@ cascade:
     show_date: false
     # Show date modified at end of content
     show_date_updated: true
+    editable: false
   # Blog post options
   - _target:
       path: /blog/**
       type: blog
     pager: true
-    editable: true
+    editable: false
     hide_date: false
     show_date_updated: true
     reading_time: true

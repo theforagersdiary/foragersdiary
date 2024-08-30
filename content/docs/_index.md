@@ -1,16 +1,16 @@
 ---
-linkTitle: Guides
+linkTitle: Intro
 title: Introduction
 ---
 
-👋 Welcome to the demo of the Hugo Blox Documentation template!
+👋 Welcome to the foraging guides and resources!
 
 <!--more-->
 
-This site is a demo of the Hugo Blox Documentation theme. For the full documentation on how to use this template, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
+This is a placeholder page I've added to get my head around what is going on within the file structure of the site.
 
 
 
 {{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
+  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
 {{< /cards >}}
