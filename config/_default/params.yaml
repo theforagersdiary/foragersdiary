@@ -39,7 +39,7 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.png"
+      filename: "logo.svg"
     button:
       enable: false
       text: "Contact"

@@ -31,15 +31,15 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: ""
       background:
-        color: "green"
+        color: ""
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: "plant.jpg"
-          size: contain
-          parallax: true
+          filename: "sitehero.jpg"
+          size: cover
+          parallax: false
           filters:
-            brightness: 0.4
+            brightness: 0.6
 ##############################################################
   - block: collection
     id: recentposts
@@ -71,5 +71,6 @@ sections:
         image:
           filename: plant.jpg
           size: cover
+          parallax: false
         
 ---
