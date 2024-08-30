@@ -8,7 +8,6 @@
       "body",
       "button",
       "circle",
-      "defs",
       "div",
       "em",
       "footer",
@@ -473,6 +472,7 @@
       "further-resources",
       "hide-button",
       "how-to-upgrade",
+      "its-a-confusing-world",
       "moon",
       "nav-menu",
       "nav-toggle",
@@ -492,6 +492,7 @@
       "share-link-x",
       "show-button",
       "site-header",
+      "something-else",
       "sun",
       "support",
       "top"
