@@ -23,7 +23,7 @@ cascade:
   # Blog post options
   - _target:
       path: /blog/**
-      kind: page
+      type: blog
     pager: true
     editable: true
     hide_date: false

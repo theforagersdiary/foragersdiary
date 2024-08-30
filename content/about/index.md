@@ -4,8 +4,8 @@ toc: false
 reading_time: false
 pager: false
 image:
-  placement: 1
-  caption: 'Photo by [Geo](https://github.com/gcushen/)'
+  placement: 3
+  caption: 'Author with a mushroom'
   focal_point: 'Center'
   preview_only: false
   alt_text: An optional description of the image for screen readers.

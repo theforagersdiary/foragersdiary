@@ -15,7 +15,7 @@ image:
 Hugo v2.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.
 
 Highlights include:
-
+- Backlink - [Hugo Blox](https://hugoblox.com) (see the tutorial on [Getting Started](/blog/v2.0.0-copy/))
 - New config options
 - Improved accessibility
 - Customizable image optimization in Markdown

@@ -7,14 +7,15 @@
 appearance:
   mode: light
   color: teal
+  font: serif
 
 # SEO
 marketing:
   seo:
-    site_type: Project
+    site_type: EducationalOrganization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo documentation theme powered by Hugo Blox website builder.'
+    org_name: 'The Foragers Diary'
+    description: 'Foraging guides and resources and foraging courses'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -40,7 +41,7 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.png"
     button:
-      enable: true
+      enable: false
       text: "Contact"
       url: "https://hugoblox.com/templates/details/docs/"
     show_search: true

@@ -5,15 +5,9 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Plants
-    url: docs/plants/
+  - name: Guides & Resources
+    url: docs/
     weight: 20
-  - name: Fungi
-    url: docs/fungi/
-    weight: 30
-  - name: Resources
-    url: docs/resources/
-    weight: 40
   - name: Diary
     url: blog/
     weight: 50

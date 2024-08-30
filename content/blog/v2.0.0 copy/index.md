@@ -1,5 +1,5 @@
 ---
-title: v2.0.0 Released!
+title: v2.0.0 testReleased!
 summary: Hugo v2.0.0 released. Download now and follow the guide to get started in 5 minutes!
 date: 2024-01-19
 authors:
@@ -8,14 +8,13 @@ tags:
   - Hugo
   - Hugo Blox
   - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+backlinks: true
+
 ---
 
 Hugo v2.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.
 
 Highlights include:
-
 - New config options
 - Improved accessibility
 - Customizable image optimization in Markdown
