@@ -1,6 +1,6 @@
 ---
 title: Blackberry liqueur (Crème de mûre)
-summary: Blackberry liqueur (Crème de mûre) recipe
+summary: Foraged blackberry liqueur (Crème de mûre) and meadowsweet recipe
 date: 2024-08-30
 authors:
   - admin
@@ -10,7 +10,7 @@ tags:
   - bramble
   - meadowsweet
 backlinks: true
-
+type: blog
 ---
 
 ## Ingredients
