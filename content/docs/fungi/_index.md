@@ -1,6 +1,7 @@
 ---
 linkTitle: Fungi
 title: Fungi
+url: /fungi/
 weight: 3
 sidebar:
   open: true

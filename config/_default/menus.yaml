@@ -6,7 +6,7 @@ main:
     url: /
     weight: 10
   - name: Guides & Resources
-    url: docs/
+    url: guides/
     weight: 20
   - name: Diary
     url: blog/

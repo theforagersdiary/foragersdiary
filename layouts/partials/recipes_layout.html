@@ -1,0 +1,14 @@
+
+<div class="mx-auto flex max-w-screen-xl">
+  {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" false) }}
+  
+  {{/* Load Hugo Blox */}}
+  {{ range $index, $block := .Params.sections }}
+  {{/* Do not show sections intended only for the demo site. */}}
+  {{ partial "functions/parse_block_v2" (dict "page" $ "block" $block) }}
+        
+  {{ end }}
+
+  
+</div>
+

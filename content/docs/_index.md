@@ -1,6 +1,8 @@
 ---
-linkTitle: Intro
-title: Introduction
+linkTitle: Guides & Resources
+title: Guides & Resources
+url: /guides/
+
 ---
 
 👋 Welcome to the foraging guides and resources!

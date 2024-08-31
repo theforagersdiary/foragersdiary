@@ -8,6 +8,7 @@ tags:
   - Hugo
   - Hugo Blox
   - Markdown
+catagories: booze
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 links:
