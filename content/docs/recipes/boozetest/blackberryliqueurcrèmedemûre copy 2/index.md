@@ -9,7 +9,7 @@ tags:
   - blackberry
   - bramble
   - meadowsweet
-  - booze
+  - boozetest
 backlinks: true
 type: docs
 layout: blogsingle
@@ -18,6 +18,7 @@ layout: blogsingle
 ## Ingredients
 
 ---
+
 - 600g fresh blackberries
 - 350ml bottle of red wine
 - 200ml vodka/gin

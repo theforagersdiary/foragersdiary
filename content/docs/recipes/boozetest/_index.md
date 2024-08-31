@@ -1,6 +1,6 @@
 ---
-title: Recipes
-url: /recipes/
+title: boozetets
+url: /recipes/boozetets
 layout: listrecipes
 
 sections:
@@ -19,7 +19,7 @@ sections:
         folders:
         author: ""
         category: ""
-        tag: "recipe"
+        tag: "boozetest"
         publication_type: ""
         featured_only: false
         exclude_featured: false

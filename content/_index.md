@@ -56,7 +56,7 @@ sections:
   - block: cta-card
     content:
       title: "Why forage?"
-      text: Foraging is a gateway to a wider set of connections we have all but lost. Foraging calls us to be active participants within our world and reconnects us to the roots we've lost
+      text: Foraging is a gateway to a wider set of connections we have all but lost. Foraging leads us gently to once more becoming active participants within the real world - it quietly and subtly reconnects us to the rhythms we have become deafened too. It brings meaning and purpose to life by planting us realistically, firmly, back within nature.
       button:
         text: Get Started
         url: /blog/

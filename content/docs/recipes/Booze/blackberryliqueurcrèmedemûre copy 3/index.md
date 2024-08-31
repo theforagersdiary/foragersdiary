@@ -9,6 +9,7 @@ tags:
   - blackberry
   - bramble
   - meadowsweet
+  - booze
 backlinks: true
 type: docs
 layout: blogsingle

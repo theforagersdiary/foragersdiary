@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "da51caeffa9107ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "4163ff14e357cc9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09853180021eb084",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ref/beginners-advice/index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26e3ed98ecd6c80c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0555fe90ccd258b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37e6f606d16eca94",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1c08e10ddbc033b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "183e5af4cb368903",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1835588bcab47698",
+    "type": "split",
+    "children": [
+      {
+        "id": "44e74ad2e0564871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ea75eace5a0d03f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/ref/beginners-advice/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d56d8f3c807c83e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/ref/beginners-advice/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc515ce7266151f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "945231938192a6b9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/ref/beginners-advice/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "09853180021eb084",
+  "lastOpenFiles": [
+    "docs/ref/hiya/index.md",
+    "docs/ref/beginners-advice/index.md",
+    "docs/ref/hiya/featuredplant.jpg",
+    "docs/ref/beginners-advice/backgroundbirdsfeatured.jpg",
+    "docs/plants/_index.md",
+    "docs/recipes/_index.md",
+    "docs/recipes/Booze/blackberryliqueurcrèmedemûre copy 4/index.md",
+    "docs/ref/beginners-advice",
+    "docs/ref/beginners-advice.md",
+    "docs/ref/_index.md",
+    "docs/_index.md",
+    "_index.md"
+  ]
+}

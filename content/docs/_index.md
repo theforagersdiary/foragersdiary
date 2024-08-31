@@ -15,4 +15,9 @@ This is a placeholder page I've added to get my head around what is going on wit
 
 {{< cards >}}
   {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
+  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
+  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
+  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
+  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
+  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
 {{< /cards >}}

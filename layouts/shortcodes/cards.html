@@ -2,7 +2,7 @@
 Docs: https://docs.hugoblox.com/content/writing-markdown-latex/
 */}}
 
-{{ $col_count := .Get "cols" | default "1" }}
+{{ $col_count := .Get "cols" | default "4" }}
 
 <div class="hb-cards mt-4 grid gap-4 not-prose" style="--hb-cols: {{ $col_count }};">
   {{ .Inner }}

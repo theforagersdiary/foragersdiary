@@ -6,6 +6,7 @@
       "article",
       "aside",
       "body",
+      "br",
       "button",
       "circle",
       "div",
@@ -74,7 +75,6 @@
       "blox-collection",
       "blox-cta-card",
       "blox-hero",
-      "blox-tags-buttons",
       "border",
       "border-2",
       "border-current",
@@ -160,7 +160,6 @@
       "from-primary-200",
       "gap-1",
       "gap-10",
-      "gap-2",
       "gap-3",
       "gap-4",
       "gap-5",
@@ -468,6 +467,8 @@
       "its-a-confusing-world",
       "method",
       "moon",
+      "my-first-active-year",
+      "my-ten-penneth",
       "nav-menu",
       "nav-toggle",
       "new-features",
@@ -480,7 +481,6 @@
       "section-collection",
       "section-cta-card",
       "section-hero",
-      "section-tags-buttons",
       "share-link-email",
       "share-link-facebook",
       "share-link-linkedin",
@@ -491,6 +491,7 @@
       "something-else",
       "sun",
       "support",
+      "ten-penneth",
       "top"
     ]
   }

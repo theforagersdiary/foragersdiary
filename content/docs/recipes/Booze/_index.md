@@ -1,6 +1,6 @@
 ---
-title: Recipes
-url: /recipes/
+title: booze
+url: /recipes/booze
 layout: listrecipes
 
 sections:
@@ -8,9 +8,9 @@ sections:
   - block: collection
     id: recipes
     content:
-      title: Recipes
+      title: Booze
       subtitle:
-      text: 'Recipes from the kitchen. Many of these recipes are from...'
+      text: 'Boozy recipes Recipes from the kitchen. Many of these recipes are from...'
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
@@ -19,7 +19,7 @@ sections:
         folders:
         author: ""
         category: ""
-        tag: "recipe"
+        tag: "booze"
         publication_type: ""
         featured_only: false
         exclude_featured: false
