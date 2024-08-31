@@ -48,7 +48,7 @@ sections:
       count: 3
       filters: 
         folders:
-        - blog
+        
     design:
       columns: 3
       view: article-grid
