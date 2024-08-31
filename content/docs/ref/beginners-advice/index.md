@@ -37,4 +37,4 @@ I began foraging in very early spring, oblivious to the challenges and difficult
 
 I also very quickly came to realise that identical plant species can look remarkably different not just from day to day or week to week but also from place to place, even when they are right next to each other.
 
-To summarise - don't shove something in your gob you aren't willing to bet your life on...and in the incredible words of Gav Brookfield - "Have some respect for those around and try not to be a dick".
+To summarise: Don’t eat anything you aren’t willing to bet your life on, and as Gaz Brookfield wisely puts it, “Have some respect for those around you, and try not to be a dick.”
