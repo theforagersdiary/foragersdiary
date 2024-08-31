@@ -9,8 +9,6 @@ tags:
   - blackberry
   - bramble
   - meadowsweet
-catagories:
-  - booze
 backlinks: true
 type: docs
 layout: blogsingle

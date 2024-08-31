@@ -31,7 +31,7 @@ sections:
       offset: 0
       # Field to sort by, such as Date or Title
       sort_by: 'title'
-      sort_ascending: false
+      sort_ascending: true
     design:
       view: article-grid
       columns: 4
