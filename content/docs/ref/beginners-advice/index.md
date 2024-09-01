@@ -1,6 +1,7 @@
 ---
 title: Foraging - Where to start
 summary: Foraging advice for the complete beginner
+description: Learn more about our mission, values, and the team behind our company.
 date: 2024-08-31
 authors:
   - admin
@@ -11,7 +12,10 @@ backlinks: true
 type: docs
 layout: blogsingle
 weight: 1
+keywords: about us 
+canonical_url: https://yourwebsite.com/about
 ---
+
 It's easy to get caught up in 'research', overthinking, or, come to think of it, any number of other barriers we seem so capable of placing in our way.
 
 The utter beauty of foraging is that it demands nothing of us but our presence and common sense (actually, not even that—as evolution will attest, everything is edible, at least once!).

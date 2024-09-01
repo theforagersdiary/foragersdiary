@@ -14,10 +14,8 @@ This is a placeholder page I've added to get my head around what is going on wit
 
 
 {{< cards >}}
-  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
-  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
-  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
-  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
-  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
-  {{< card url="hiya" title="hiya!" icon="document-text" subtitle="Something here as a card start" >}}
+  {{< card url="/resources/" title="Resources" icon="document-text" subtitle="Books, websites & beginner guides" >}}
+  {{< card url="/plants/" title="Plant Guides" icon="document-text" subtitle="In depth plant guides" >}}
+  {{< card url="/fungi/" title="Fungi Guides" icon="document-text" subtitle="In depth fungi guides" >}}
+  {{< card url="/recipes/" title="Recipes" icon="document-text" subtitle="Foraging related recipes and booze" >}}
 {{< /cards >}}
