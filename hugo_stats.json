@@ -10,6 +10,7 @@
       "button",
       "circle",
       "div",
+      "em",
       "footer",
       "form",
       "g",
@@ -38,6 +39,7 @@
       "script",
       "section",
       "span",
+      "strong",
       "style",
       "svg",
       "textarea",
@@ -455,7 +457,6 @@
       "z-30"
     ],
     "ids": [
-      "-welcome-to-the-foragers-diary-",
       "Layer_1",
       "bug-fixes",
       "docs",

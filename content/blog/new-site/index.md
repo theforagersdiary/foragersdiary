@@ -36,4 +36,4 @@ Mark over at Galloway Wild Foods has a wonderful site. So much of what he has wr
 
 This resonated with me and what I wanted to achieve with my notes, and in turn, this site. If you want to really learn, then make notes, distil, synthesise, and then write as if you’re educating others.
 
-### ** Welcome to the foragers diary! **
+### *Welcome to the foragers diary!*
