@@ -15,15 +15,15 @@ sections:
       primary_action:
         text: Guides
         url: /guides/
-        icon:
+        icon: hero/book-open
       secondary_action:
         text: Diary
         url: /blog/
       announcement:
-        text: "Building"
+        text: "New site and database build..."
         link:
           text: "Read more"
-          url: "/blog/"
+          url: "/blog/new-site"
     design:
       spacing:
         padding: [0, 0, 0, 0]

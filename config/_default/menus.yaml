@@ -14,9 +14,12 @@ main:
   - name: About
     url: about/
     weight: 60
+  - name: Newsletter
+    url: newsletter/
+    weight: 70
   - name: Contact
     url: contact/
-    weight: 70
+    weight: 80
 
 sidebar:
   - identifier: more
@@ -32,8 +35,5 @@ sidebar:
     name: "Downloads"
     pageRef: "/downloads"
     weight: 4
-  - identifier: newsletter
-    name: Newsletter
-    pageRef: /newsletter
-    weight: 5
+
 

@@ -19,7 +19,7 @@ marketing:
     twitter: '@foragers_diary'
   analytics:
     google_analytics: 'G-VSR77TXTGQ'
-    google_tag_manager: ''
+    google_tag_manager:
     microsoft_clarity: ''
     baidu_tongji: ''
     plausible: ''
@@ -41,7 +41,7 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     button:
-      enable: true
+      enable: false
       text: "Newsletter"
       url: "/newsletter"
     show_search: true
