@@ -1,5 +1,6 @@
 ---
 title: Blackberry liqueur (Crème de mûre)
+subtitle: 'A subtitle or sumfink'
 summary: Foraged blackberry liqueur (Crème de mûre) and meadowsweet recipe
 date: 2024-08-30
 authors:
@@ -13,12 +14,12 @@ tags:
 backlinks: true
 type: docs
 layout: blogsingle
+commentable: true
 ---
 
 ## Ingredients
 
 ---
-
 - 600g fresh blackberries
 - 350ml bottle of red wine
 - 200ml vodka/gin

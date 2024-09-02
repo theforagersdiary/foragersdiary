@@ -14,7 +14,7 @@ cascade:
   # Docs folder options
   - _target:
       path: /docs/**
-    editable: true
+    editable: false
     show_breadcrumb: true
     # Hide date from Next In Series
     show_date: false
@@ -54,7 +54,7 @@ removePathAccents: true
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 paginate: 10
 enableEmoji: true

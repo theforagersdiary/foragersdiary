@@ -1,8 +1,11 @@
 ---
 linkTitle: Guides & Resources
 title: Guides & Resources
+subtitle: 'A subtitle or sumfink'
 url: /guides/
-
+banner:
+  image: 'plant.jpg'
+  caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
 
 👋 Welcome to the foraging guides and resources!

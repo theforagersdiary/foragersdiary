@@ -12,11 +12,11 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: EducationalOrganization
-    local_business_type: ''
+    site_type: Organisation
+    local_business_type: 'ProfessionalService'
     org_name: 'The Foragers Diary'
-    description: 'Foraging guides and resources and foraging courses'
-    twitter: 'GetResearchDev'
+    description: 'Wild food foraging guides, plant guides, mushroom and fungi guides, foraging resources and foraging courses'
+    twitter: '@foragers_diary'
   analytics:
     google_analytics: 'G-VSR77TXTGQ'
     google_tag_manager: ''
@@ -41,9 +41,9 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     button:
-      enable: false
-      text: "Contact"
-      url: ""
+      enable: true
+      text: "Newsletter"
+      url: "/newsletter"
     show_search: true
     show_theme_chooser: true
 
@@ -77,10 +77,11 @@ features:
     responses:
       positive: ''
       negative: ''
+  
   comment:
-    provider: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+    provider: 'disqus'
+    disqus:
+      # Paste the shortname from your Disqus dashboard.
+      shortname: 'foragersdiary'
+      # Show comment count in page header? (true/false)
+      show_count: true
