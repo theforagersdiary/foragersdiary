@@ -69,7 +69,7 @@ sections:
         margin: [0, 0, 0, 0]
       background:
         image:
-          filename: plant.jpg
+          filename: 
           size: cover
           parallax: false
         
