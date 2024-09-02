@@ -8,7 +8,7 @@ keywords:
   - foraging newsletter
   - foragers diary newsletter
 pager: false
-lyout: single
+reading_time: false
 ---
 
 Stay up-to-date with The Foragers Diary. 
