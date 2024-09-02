@@ -79,7 +79,7 @@ features:
       negative: ''
   
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
       # Paste the shortname from your Disqus dashboard.
       shortname: 'foragersdiary'
