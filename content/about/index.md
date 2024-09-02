@@ -2,7 +2,7 @@
 title: About
 toc: false
 reading_time: false
-pager: false
+pager: true
 image:
   placement: 3
   caption: 'Author with a mushroom'
