@@ -14,13 +14,13 @@ sections:
       text: Foraging Resources | Foraging Guides | Foraging Diary
       primary_action:
         text: Guides
-        url: /docs/
+        url: /guides/
         icon:
       secondary_action:
         text: Diary
         url: /blog/
       announcement:
-        text: "Nothing to announce right now"
+        text: "Building"
         link:
           text: "Read more"
           url: "/blog/"

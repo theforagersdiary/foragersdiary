@@ -1,13 +1,17 @@
 ---
 title: Newsletter
-toc: false
-reading_time: false
+description: Sign up to the Foragers diary newsletter
+summary: Keep up to date with all the latest from the foragers diary
+date: 02-09-2024
+keywords:
+  - newsletter
+  - foraging newsletter
+  - foragers diary newsletter
 pager: false
-
-
+lyout: single
 ---
 
-Stay up-to-date with The Foragers Diary.
+Stay up-to-date with The Foragers Diary. 
 
 <form name="newsletter" netlify style="text-align: left;">
   <p>

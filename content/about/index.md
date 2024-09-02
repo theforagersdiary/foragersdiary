@@ -8,7 +8,7 @@ image:
   caption: 'Author with a mushroom'
   focal_point: 'Center'
   preview_only: false
-  alt_text: An optional description of the image for screen readers.
+  alt_text: Author smiling with a carved wooden mushroom made from a log.
 
 ---
 
