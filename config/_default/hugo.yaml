@@ -71,10 +71,10 @@ outputs:
   home: [HTML, RSS, WebAppManifest, headers, redirects, backlinks]
   page: [HTML]
   section: [HTML, RSS]
-imaging:
-  resampleFilter: lanczos
-  quality: 75
-  anchor: smart
+# imaging:
+#  resampleFilter: lanczos
+#  quality: 75
+#  anchor: smart
 timeout: 600000
 taxonomies:
   tag: tags

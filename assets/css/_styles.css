@@ -1,0 +1,16 @@
+.nested-img img {
+    width:auto;
+    max-width:none;
+    display:inline;
+   }
+
+   .thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  .thumbnail-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
