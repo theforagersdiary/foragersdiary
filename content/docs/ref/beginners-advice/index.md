@@ -14,7 +14,9 @@ layout: blogsingle
 weight: 1
 keywords: about us 
 canonical_url: https://yourwebsite.com/about
+toc: false
 ---
+{{< toc mobile_only=false >}}
 
 It's easy to get caught up in 'research', overthinking, or, come to think of it, any number of other barriers we seem so capable of placing in our way.
 

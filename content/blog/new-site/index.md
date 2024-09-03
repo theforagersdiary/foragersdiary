@@ -15,8 +15,12 @@ keywords:
 catagories: news
 image:
   caption: 'Image credit: Christo Nicolle'
+toc: false
+type: page
 
 ---
+
+{{< toc mobile_only=false >}}
 
 ## Genesis
 

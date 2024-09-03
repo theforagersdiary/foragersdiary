@@ -3,8 +3,8 @@ linkTitle: Resources
 title: Resources
 url: /resources/
 weight: 1
-sidebar:
-  open: false
+type: docs
+layout: blogsingle
 ---
 
 {{< cards >}}

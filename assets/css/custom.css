@@ -1,16 +1,30 @@
-.nested-img img {
-    width:auto;
-    max-width:none;
-    display:inline;
-   }
+/* Hide the TOC */
+.hb-toc {
+  display: none;
+}
 
-   .thumbnail-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
-  }
-  .thumbnail-grid img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+
+/* IMAGE GALLERY STYLES */
+.nested-img img {
+  width: auto;
+  max-width: none;
+  display: inline;
+}
+
+.thumbnail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.thumbnail-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-container {
+  margin-bottom: 30px;
+}
+
+

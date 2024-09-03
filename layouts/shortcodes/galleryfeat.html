@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
+{{ $featuredImages := .Page.Resources.Match "*featured*" }}
+{{ $featured := index $featuredImages 0 }}
+{{ $images := .Page.Resources.Match "*" }}
+
+<div class="gallery-container">
+
+    {{ if $featured }}
+        <div class="featured-image">
+            <a href="{{ $featured.Permalink }}" data-lightbox="gallery">
+                <img src="{{ $featured.RelPermalink }}" alt="Featured Image" />
+            </a>
+        </div>
+    {{ end }}
+
+    <div class="thumbnail-grid">
+        {{ range $images }}
+            {{ if and (not (eq . $featured)) (.Fill "150x115 q100") }}
+                <a href="{{ .Permalink }}" data-lightbox="gallery">
+                    <img src="{{ .Permalink }}" alt="Thumbnail" />
+                </a>
+            {{ end }}
+        {{ end }}
+    </div>
+
+</div>
