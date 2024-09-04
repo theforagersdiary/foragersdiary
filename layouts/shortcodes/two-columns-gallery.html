@@ -17,20 +17,16 @@
         <div class="featgallery-container">
 
             {{ if $featured }}
-                <!-- Featured Image (Resized with aspect ratio retained, max width 450px) -->
-                {{ $resizedFeatured := $featured.Resize "450x" }}
                 <div class="featgallery-featured-image">
                     <a href="{{ $featured.Permalink }}" data-lightbox="gallery">
-                        <img src="{{ $resizedFeatured.RelPermalink }}" alt="Featured Image" style="max-width: 450px;" />
+                        <img src="{{ $featured.RelPermalink }}" alt="Featured Image" />
                     </a>
                 </div>
-                
-                <!-- Thumbnail Grid -->
-                <div class="featgallery-thumbnail-grid grid grid-cols-3 gap-4 mt-4">
-                    <!-- Loop through all images but skip the featured image -->
+
+                <div class="featgallery-thumbnail-grid">
                     {{ range $images }}
-                        {{ if not (eq . $featured) }} <!-- Exclude the featured image from the grid -->
-                            {{ $resized := .Fill "150x150 q60" }} <!-- Create square thumbnails for other images -->
+                        {{ if not (eq . $featured) }}
+                            {{ $resized := .Fill "150x150 q60" }}
                             <a href="{{ .Permalink }}" data-lightbox="gallery">
                                 <img src="{{ $resized.RelPermalink }}" alt="Thumbnail" class="featgallery-thumbnail-image"/>
                             </a>
