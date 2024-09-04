@@ -6,7 +6,7 @@
 {{ with $image }}
   <div class="thumbnail-grid">
     {{ range . }}
-      {{ $resized := .Fill "150x115 q100" }}
+      {{ $resized := .Fill "150x115 q60" }}
       <a href="{{ .Permalink }}" data-lightbox="x">
         <img src="{{ $resized.Permalink }}" alt="Thumbnail" />
       </a>

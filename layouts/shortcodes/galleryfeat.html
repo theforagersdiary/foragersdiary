@@ -6,24 +6,25 @@
 {{ $featured := index $featuredImages 0 }}
 {{ $images := .Page.Resources.Match "*" }}
 
-<div class="gallery-container">
+<div class="featgallery-container">
 
     {{ if $featured }}
-        <div class="featured-image">
+        <div class="featgallery-featured-image">
             <a href="{{ $featured.Permalink }}" data-lightbox="gallery">
                 <img src="{{ $featured.RelPermalink }}" alt="Featured Image" />
             </a>
         </div>
-    {{ end }}
 
-    <div class="thumbnail-grid">
-        {{ range $images }}
-            {{ if and (not (eq . $featured)) (.Fill "150x115 q100") }}
-                <a href="{{ .Permalink }}" data-lightbox="gallery">
-                    <img src="{{ .Permalink }}" alt="Thumbnail" />
-                </a>
+        <div class="featgallery-thumbnail-grid">
+            {{ range $images }}
+                {{ if not (eq . $featured) }}
+                    {{ $resized := .Fill "150x150 q60" }}
+                    <a href="{{ .Permalink }}" data-lightbox="gallery">
+                        <img src="{{ $resized.RelPermalink }}" alt="Thumbnail" class="featgallery-thumbnail-image"/>
+                    </a>
+                {{ end }}
             {{ end }}
-        {{ end }}
-    </div>
+        </div>
 
+    {{ end }}
 </div>

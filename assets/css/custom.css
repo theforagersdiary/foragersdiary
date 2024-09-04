@@ -5,26 +5,54 @@
 
 
 /* IMAGE GALLERY STYLES */
-.nested-img img {
+
+/* Ensures images within specific nested containers retain their default width */
+.featgallery-nested-img img {
   width: auto;
   max-width: none;
   display: inline;
 }
 
-.thumbnail-grid {
+/* Thumbnail grid layout */
+.featgallery-thumbnail-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Defines grid columns with a min-width of 150px */
+  gap: 5px; /* Applies a consistent 10px gap between both rows and columns */
+  align-items: start; /* Ensure that grid items start at the same point in each row */
 }
 
-.thumbnail-grid img {
-  width: 100%;
-  height: auto;
-  display: block;
+/* Images within the thumbnail grid */
+.featgallery-thumbnail-grid img {
+  width: 100%; /* Images fill the grid item width */
+  height: 100%; /* Force the image to fill the grid item height */
+  object-fit: cover; /* Ensure the image scales and crops to maintain aspect ratio */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: 0; /* Prevent any default margin on the image */
+  padding: 0; /* Prevent any padding on the image */
 }
 
-.gallery-container {
-  margin-bottom: 30px;
+/* Container for the overall gallery */
+.featgallery-container {
+  margin-bottom: 10px; /* Adds space below the gallery */
 }
 
+/* Reset margins and padding on the featured image */
+.featgallery-featured-image img {
+  margin: 0; /* Ensure no extra margin is applied */
+  margin-bottom: 5px;
+  display: block; /* Ensure the image behaves like a block element */
+  max-width: 100%; /* Ensure the image doesn't overflow the container */
+  height: auto; /* Maintain aspect ratio */
+}
 
+.two-columns-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Adjust the gap between columns */
+}
+
+@media (max-width: 768px) {
+  .two-columns-container {
+      grid-template-columns: 1fr; /* Stacks the columns on small screens */
+  }
+}

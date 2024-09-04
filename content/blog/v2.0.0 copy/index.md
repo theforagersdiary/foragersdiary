@@ -1,18 +1,35 @@
 ---
-title: v2.0.0 testReleased!
+title: The Blusher - Aminita Rubecence
 summary: Hugo v2.0.0 released. Download now and follow the guide to get started in 5 minutes!
 date: 2024-01-19
 authors:
-  - admin
+  - 
 tags:
   - Hugo
   - Hugo Blox
   - Markdown
-backlinks: true
+
+image:
+  placement: 1
+  caption: 'Photo by [Geo](https://github.com/gcushen/)'
+  focal_point: 'Center'
+  preview_only: true
+  alt_text: An optional description of the image for screen readers.
 
 ---
 
-{{< galleryfeat >}}
+
+{{< two-columns-gallery >}}
+
+## AT A GLANCE
+
+This is the text or markdown that will appear in the left column. You can format this with **bold text**, _italics_, and any other Markdown elements.
+
+- List item 1
+- List item 2
+- List item 3
+
+{{< /two-columns-gallery >}}
 
 Hugo v2.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.
 

@@ -8,7 +8,7 @@ sections:
   - block: collection
     id: recipes
     content:
-      title: Recipes
+      title: Boozetets
       subtitle:
       text: 'Recipes from the kitchen. Many of these recipes are from...'
       # Choose how many pages you would like to display (0 = all pages)
