@@ -1,8 +1,7 @@
 ---
 title: Foraging - Where to start
-summary: Foraging advice for the complete beginner
 fdtype: article
-description: Advice on where and how to begin foraging
+description: Advice on foraging and how to begin foraging
 date: 2024-08-31
 authors:
   - admin
@@ -10,6 +9,8 @@ tags:
   - foraging 101
   - foraging advice
   - how to start foraging
+categories:
+  - foraging
 backlinks: true
 weight: 1 
 canonical_url:

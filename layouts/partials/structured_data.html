@@ -26,7 +26,7 @@
   "headline": "{{ .Title }}",
   "author": {
     "@type": "Person",
-    "name": "{{ .Params.author | default "Unknown Author" }}"
+    "name": "{{ partial "functions/get_author_name.html" . }}"
   },
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
@@ -48,7 +48,7 @@
   "name": "{{ .Title }}",
   "author": {
     "@type": "Person",
-    "name": "{{ .Params.author | default "Unknown Author" }}"
+    "name": "{{ partial "functions/get_author_name.html" . }}"
   },
   "description": "{{ .Params.description }}",
   "recipeIngredient": [
@@ -64,12 +64,38 @@
       }{{ if lt $index (sub (len .Params.instructions) 1) }},{{ end }}
     {{ end }}
   ],
-  "image": "{{ with (.Resources.GetMatch "*featured*") }}{{ .Permalink }}{{ end }}",
+  "image": "{{ with (.Resources.GetMatch "featured*") }}{{ .Permalink }}{{ end }}",
   "prepTime": "{{ .Params.prepTime }}",
   "cookTime": "{{ .Params.cookTime }}",
   "totalTime": "{{ .Params.totalTime }}",
   "recipeYield": "{{ .Params.recipeYield }}",
-  "keywords": "{{ delimit (append .Params.categories .Params.tags) ", " }}"
+  "keywords": "{{ delimit .Params.keywords ", " }}"
+}
+</script>
+{{- end -}}
+
+{{- $fdtype := .Params.fdtype | default "default" -}}
+
+{{- if eq $fdtype "review" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "{{ .Params.reviewedType | default "Product" }}",  <!-- Allows flexibility for types like Product, Article, etc. -->
+    "name": "{{ .Params.reviewedItem }}",                      <!-- Name of the item being reviewed -->
+    "description": "{{ .Params.reviewedDescription }}"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ .Params.rating }}",                      <!-- Rating value for the review -->
+    "bestRating": "{{ .Params.bestRating | default "5" }}"       <!-- Optional: Default is 5 -->
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ partial "functions/get_author_name.html" . }}"   <!-- Reusing the author partial -->
+  },
+  "reviewBody": "{{ .Params.reviewBody }}"                      <!-- The content of the review -->
 }
 </script>
 {{- end -}}

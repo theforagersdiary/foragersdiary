@@ -32,8 +32,8 @@
 
   {{/* Generate page description. */}}
   {{ $desc := "" }}
-  {{ if .Params.summary }}
-    {{ $desc = .Params.summary }}
+  {{ if .Params.description }}
+    {{ $desc = .Params.description }}
   {{ else if .Params.abstract }}
     {{ $desc = .Params.abstract }}
   {{ else if .IsPage }}
@@ -194,6 +194,24 @@
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:title" content="{{ $title }}" />
   <meta property="og:description" content="{{ $desc }}" />
+
+  <!-- Add og:type based on fdtype in front matter -->
+{{ if .Params.fdtype }}
+<meta property="og:type" content="{{ .Params.fdtype }}" />
+{{ else }}
+<meta property="og:type" content="website" /> <!-- Default fallback -->
+{{ end }}
+
+<!-- Add article:section based on categories in front matter -->
+{{ if .Params.categories }}
+<meta property="article:section" content="{{ index .Params.categories 0 }}" /> <!-- First category -->
+{{ end }}
+
+<!-- Add article:tag based on tags in front matter -->
+{{ if .Params.tags }}
+<meta property="article:tag" content="{{ delimit .Params.tags ", " }}" /> <!-- Comma-separated tags -->
+{{ end }}
+
   {{- with $og_image -}}
     <meta property="og:image" content="{{ . }}" />
     <meta property="twitter:image" content="{{ . }}" />
