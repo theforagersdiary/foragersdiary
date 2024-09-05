@@ -3,7 +3,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder {{ site.Data.hugoblox.version }}" />
 
   {{/* EXTENSIBILITY HOOK: HEAD-START */}}
   {{ partial "functions/get_hook" (dict "hook" "head-start" "context" .) }}
@@ -11,6 +10,12 @@
   {{ if .Params.private }}
     <meta name="robots" content="noindex" />
   {{- end -}}
+
+  {{/* Structured Data Breadcrumb Partial Injection */}}
+  {{ partial "structured_data_breadcrumbs" . }}
+
+  {{/* Structured Data Partial Injection */}}
+  {{ partial "structured_data" . }}
 
   {{/* Attempt to load superuser. */}}
   {{ $superuser_name := "" }}

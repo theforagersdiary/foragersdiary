@@ -8,7 +8,9 @@ tags:
   - Hugo
   - Hugo Blox
   - Markdown
-
+categories: 
+  - Something
+  - Something else
 image:
   placement: 1
   caption: 'Photo by [Geo](https://github.com/gcushen/)'

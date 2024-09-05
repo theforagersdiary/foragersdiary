@@ -1,0 +1,113 @@
+{{- $fdtype := .Params.fdtype | default "default" -}}
+
+{{- if eq $fdtype "home" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.Title }}",
+  "url": "{{ site.BaseURL }}",
+  "description": "{{ .Params.description }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}",
+    "url": "{{ site.BaseURL }}",
+    "logo": "{{ with (partial "functions/get_logo" (dict "constraint" "fit" "size" 300)) }}{{ .Permalink }}{{ end }}"
+  }
+}
+</script>
+{{- end -}}
+
+{{- if eq $fdtype "article" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author | default "Unknown Author" }}"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}"
+  },
+  "description": "{{ .Params.description }}",
+  "image": "{{ with (.Resources.GetMatch "*featured*") }}{{ .Permalink }}{{ end }}"
+}
+</script>
+{{- end -}}
+
+{{- if eq $fdtype "recipe" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "{{ .Title }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author | default "Unknown Author" }}"
+  },
+  "description": "{{ .Params.description }}",
+  "recipeIngredient": [
+    {{ range $index, $ingredient := .Params.ingredients }}
+      "{{ $ingredient }}"{{ if lt $index (sub (len .Params.ingredients) 1) }},{{ end }}
+    {{ end }}
+  ],
+  "recipeInstructions": [
+    {{ range $index, $instruction := .Params.instructions }}
+      {
+        "@type": "HowToStep",
+        "text": "{{ $instruction }}"
+      }{{ if lt $index (sub (len .Params.instructions) 1) }},{{ end }}
+    {{ end }}
+  ],
+  "image": "{{ with (.Resources.GetMatch "*featured*") }}{{ .Permalink }}{{ end }}",
+  "prepTime": "{{ .Params.prepTime }}",
+  "cookTime": "{{ .Params.cookTime }}",
+  "totalTime": "{{ .Params.totalTime }}",
+  "recipeYield": "{{ .Params.recipeYield }}",
+  "keywords": "{{ delimit (append .Params.categories .Params.tags) ", " }}"
+}
+</script>
+{{- end -}}
+
+{{- if eq $fdtype "event" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ .Title }}",
+  "startDate": "{{ .Params.startDate }}",
+  "endDate": "{{ .Params.endDate }}",
+  "eventAttendanceMode": "{{ .Params.eventAttendanceMode | default "https://schema.org/OfflineEventAttendanceMode" }}",
+  "eventStatus": "{{ .Params.eventStatus | default "https://schema.org/EventScheduled" }}",
+  "location": {
+    "@type": "Place",
+    "name": "{{ .Params.location.name | default "Venue Name" }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ .Params.location.streetAddress | default "Street Address" }}",
+      "addressLocality": "{{ .Params.location.addressLocality | default "City" }}",
+      "postalCode": "{{ .Params.location.postalCode | default "Postal Code" }}",
+      "addressCountry": "{{ .Params.location.addressCountry | default "Country" }}"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "{{ .Params.organizer.name | default site.Title }}",
+    "url": "{{ .Params.organizer.url | default site.BaseURL }}"
+  },
+  "image": "{{ with (.Resources.GetMatch "*featured*") }}{{ .Permalink }}{{ end }}",
+  "description": "{{ .Params.description }}",
+  "offers": {
+    "@type": "Offer",
+    "url": "{{ .Permalink }}",
+    "price": "{{ .Params.price | default "Free" }}",
+    "priceCurrency": "{{ .Params.priceCurrency | default "GBP" }}"
+  }
+}
+</script>
+{{- end -}}

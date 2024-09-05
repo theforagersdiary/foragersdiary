@@ -1,19 +1,18 @@
 ---
 title: Foraging - Where to start
 summary: Foraging advice for the complete beginner
-description: Learn more about our mission, values, and the team behind our company.
+fdtype: article
+description: Advice on where and how to begin foraging
 date: 2024-08-31
 authors:
   - admin
 tags:
   - foraging 101
   - foraging advice
+  - how to start foraging
 backlinks: true
-type: docs
-layout: blogsingle
-weight: 1
-keywords: about us 
-canonical_url: https://yourwebsite.com/about
+weight: 1 
+canonical_url:
 toc: false
 ---
 {{< toc mobile_only=false >}}
