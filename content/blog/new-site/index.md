@@ -26,7 +26,7 @@ type: page
 
 I’d built up my mental foraging database. It was enough to get by and satisfy my curiosities when I was in the woods. I knew some things I could eat or use, and I knew what not to eat (pretty much anything I didn’t recognise). But it wasn’t until I began taking a real interest in foraging that I realised just how piecemeal and lacking my knowledge was. I also realised how many interesting tidbits I’d learned and forgotten.
 
-I wouldn’t often take much with me on my excursions—just a bottle of water or cider, a little cotton tote bag, and my phone. I found that my learning style was ‘in the field’, but I hate being weighed down with kit. I realised I was using my phone to take notes, photographs and document my findings more than anything else. The fewer obstacles to my immersion, the better (phone phone forever on silent). But that also meant I needed a solid internet connection to access the bookmarks and notes I’d saved.
+I wouldn’t often take much with me on my excursions—just a bottle of water or cider, a little cotton tote bag, and my phone. I found that my learning style was ‘in the field’, but I hate being weighed down with kit. I realised I was using my phone (forever on silent)to take notes, photographs and document my findings more than anything else. The fewer obstacles to my immersion, the better. But that also meant I needed a solid internet connection to access the bookmarks and notes I’d saved.
 
 On rainy days, I began typing up my notes to a place I could access whenever I wanted. I wanted to consolidate my knowledge and create an easily accessible database that I could also add to while in the field.
 

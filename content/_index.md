@@ -37,7 +37,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: "sitehero.jpg"
           size: cover
-          parallax: true
+          parallax: false
           filters:
             brightness: 0.6
 ##############################################################
