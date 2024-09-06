@@ -2,29 +2,33 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 
-{{ $featuredImages := .Page.Resources.Match "*featured*" }}
-{{ $featured := index $featuredImages 0 }}
-{{ $images := .Page.Resources.Match "*" }}
 
-<div class="featgallery-container">
 
-    {{ if $featured }}
-        <div class="featgallery-featured-image">
-            <a href="{{ $featured.Permalink }}" data-lightbox="gallery">
-                <img src="{{ $featured.RelPermalink }}" alt="Featured Image" />
-            </a>
-        </div>
+<div class="right-column">
+    {{ $featuredImages := .Page.Resources.Match "*main*" }}
+    {{ $featured := index $featuredImages 0 }}
+    {{ $images := .Page.Resources.Match "*" }}
 
-        <div class="featgallery-thumbnail-grid">
-            {{ range $images }}
-                {{ if not (eq . $featured) }}
-                    {{ $resized := .Fill "150x150 q60" }}
-                    <a href="{{ .Permalink }}" data-lightbox="gallery">
-                        <img src="{{ $resized.RelPermalink }}" alt="Thumbnail" class="featgallery-thumbnail-image"/>
-                    </a>
+    <div class="featgallery-container">
+
+        {{ if $featured }}
+            <div class="featgallery-featured-image">
+                <a href="{{ $featured.Permalink }}" data-lightbox="gallery">
+                    <img src="{{ $featured.RelPermalink }}" alt="Featured Image" />
+                </a>
+            </div>
+
+            <div class="featgallery-thumbnail-grid">
+                {{ range $images }}
+                    {{ if not (eq . $featured) }}
+                        {{ $resized := .Fill "150x150 q60" }}
+                        <a href="{{ .Permalink }}" data-lightbox="gallery">
+                            <img src="{{ $resized.RelPermalink }}" alt="Thumbnail" class="featgallery-thumbnail-image"/>
+                        </a>
+                    {{ end }}
                 {{ end }}
-            {{ end }}
-        </div>
+            </div>
 
-    {{ end }}
+        {{ end }}
+    </div>
 </div>

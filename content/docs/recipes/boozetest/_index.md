@@ -1,6 +1,6 @@
 ---
 title: boozetets
-url: /recipes/boozetets
+url: /recipes/booze/boozetets
 layout: listrecipes
 
 sections:

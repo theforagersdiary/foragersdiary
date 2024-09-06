@@ -2,7 +2,7 @@
 title: Recipes
 url: /recipes/
 layout: listrecipes
-
+weight: 4
 sections:
 
   - block: collection

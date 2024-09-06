@@ -1,35 +1,39 @@
 ---
 title: The Blusher - Aminita Rubecence
-summary: Hugo v2.0.0 released. Download now and follow the guide to get started in 5 minutes!
+summary: testy mctesterson
 date: 2024-01-19
 authors:
-  - 
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - fungi
+  - fungi with pores
+  - spring
+  - summer
+  - autumn
+  - winter
+  - ediblecaution
+  - inedible
+  - danger
+  - wfhweihf
+  - wjfhwkjfw jhgjhg
+  - kknbc 
 categories: 
   - Something
   - Something else
 image:
-  placement: 1
-  caption: 'Photo by [Geo](https://github.com/gcushen/)'
-  focal_point: 'Center'
-  preview_only: false
-  alt_text: An optional description of the image for screen readers.
-
+  preview_only: true
 ---
 
 
 {{< two-columns-gallery >}}
 
-## AT A GLANCE
+This is a summary of the plant or fungi. 
+Some key points:
+- point one
+- point two
+- point three
 
-This is the text or markdown that will appear in the left column. You can format this with **bold text**, _italics_, and any other Markdown elements.
+Then some more text about it and what the uses and benefits are of it
 
-- List item 1
-- List item 2
-- List item 3
 
 {{< /two-columns-gallery >}}
 

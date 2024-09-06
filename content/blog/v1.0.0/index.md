@@ -11,17 +11,7 @@ tags:
   - Markdown
 catagories: booze
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
-links:
-  - icon_pack: fab
-    icon: twitter
-    name: Follow
-    url: 'https://twitter.com/Twitter'
-  - icon_pack: fab
-    icon: medium
-    name: Originally published on Medium
-    url: 'https://medium.com'
-
+  caption: 'Image credit: bla bla bla'
 ---
 
 Hugo v1.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.

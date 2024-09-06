@@ -8,65 +8,28 @@
           {{ partial "components/breadcrumb.html" . }}
         </div>
         {{ end }}
-  
-        <h1 class="mt-2 mb-0 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+
+
+        <h1 class="mt-2 mb-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
           {{- .Title -}}
         </h1>
-  
-        <div class="mt-0 mb-8">
-        <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2">
-          {{- if .Date | and (not .Params.hide_date) -}}
-          <span class="mr-1">{{- .Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}</span>
-          {{- if .Params.authors }}<span class="mx-1">·</span>{{ end -}}
-          {{- end -}}
-  
-          {{ $taxonomy := "authors" }}
-          {{ range $i, $author_obj := (.GetTerms $taxonomy) }}
-            {{ $author_page := $author_obj.Page }}
-            {{ $avatar := ($author_page.Resources.ByType "image").GetMatch "*avatar*" }}
-            {{- if and $i (not $avatar) }}<span class="mr-1">,</span>{{ end -}}
-            {{ with $author_page.Params.website }}
-            <a href="{{.}}" target="_blank" rel="noreferrer">
-            {{ end }}
-            <div class="group inline-flex items-center text-current gap-x-1.5 mx-1">
-              {{ with $avatar }}
-              {{ $avatar = $avatar.Process "Fill 50x50 Center webp" }}
-              <img src="{{ $avatar.RelPermalink }}" alt="{{ $author_page.Title }}" class="inline-block h-4 w-4 rounded-full border border-current" loading="lazy" />
-              {{ end }}
-              <div {{if $author_page.Params.website}}class="group-hover:underline"{{end}}>{{ $author_page.Title }}</div>
+
+        <div class ="mt-16 mb-2">
+          {{ $featured := partial "functions/get_featured_image.html" . }}
+          {{ if and $featured (not .Params.image.preview_only) }}
+          {{ $image := $featured }}
+          {{ $image_container := "article-container" }}
+          {{ $image = $featured.Fit "1400x2500" }} 
+          {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: 900px; margin: 0 0 8 0 auto; height: auto;"> <!-- Center the image -->
+            <div style="position: relative">
+              <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image">
+              {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
             </div>
-            {{ with $author_page.Params.website }}
-            </a>
-            {{ end }}
-          {{ end }}
-  
-          {{ if ne .Params.reading_time false }}
-          <span class="mx-1">·</span>
-          <span class="mx-1">
-            {{ .ReadingTime }} {{ i18n "minute_read" }}
-          </span>
-          {{ end }}
           </div>
-  
-          <div class="mt-3">
-            {{ partial "page_links_div.html" . }}
-          </div>
+          {{end}}
         </div>
-  
-        {{ $featured := partial "functions/get_featured_image.html" . }}
-        {{ if and $featured (not .Params.image.preview_only) }}
-        {{ $image := $featured }}
-        {{ $image_container := "article-container" }}
-        {{ $image = $featured.Fit "1400x2500" }} 
-        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-        <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: 900px; margin: 0 0 8 0 auto; height: auto;"> <!-- Center the image -->
-          <div style="position: relative">
-            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image">
-            {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
-          </div>
-        </div>
-        {{end}}
-  
+
         <div class="prose prose-slate lg:prose-lg dark:prose-invert" style="max-width: 900px; margin: 0 auto;"> <!-- Center the content -->
           {{ .Content }}
         </div>
@@ -75,6 +38,7 @@
   
         <div class="container mx-auto prose prose-slate lg:prose-lg dark:prose-invert mt-5"> <!-- Center the footer -->
           {{ .Scratch.Set "invert_pager" true }}
+          {{ partial "tags" . }}
           {{ partial "components/next-in-series.html" . }}
           {{ partial "comments.html" . }}
         </div>

@@ -11,10 +11,7 @@ tags:
   - how to start foraging
 categories:
   - foraging
-backlinks: true
 weight: 1 
-canonical_url:
-toc: false
 ---
 {{< toc mobile_only=false >}}
 

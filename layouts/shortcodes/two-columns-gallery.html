@@ -4,13 +4,59 @@
 
 <div class="two-columns-container grid grid-cols-1 md:grid-cols-2 gap-5">
     <!-- Left Column: Render Markdown content -->
-    <div class="left-column">
-        {{ .Inner | markdownify }}
+    <div class="left-column" style="border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+        <div class="prose prose-slate dark:prose-invert mt-0 first:mt-0">
+            
+            <h2 style="text-align: center;">At A Glance:</h2>
+
+            {{ $tags := .Page.Params.tags | default slice }}  <!-- Load tags or set as empty if not found -->
+
+            {{ if gt (len $tags) 0 }}  <!-- Check if there are any tags -->
+                <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
+
+                    <!-- Season Row: Label and icons inline -->
+                    <div class="icon-row" style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <h3 style="margin: 0; padding-right: 10px;">Season:</h3>
+                        <div class="season-icons" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            {{ range $tags }}
+                                {{ if in (slice "spring" "summer" "autumn" "winter") . }}  <!-- Filter season tags -->
+                                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}  <!-- Look for SVG in folder -->
+                                    {{ if $icon }}  <!-- Check if icon exists -->
+                                        <div class="icon" style="margin: 0; padding: 0;">
+                                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 50px; height: 50px; margin: 0; padding: 0;">
+                                        </div>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+
+                    <!-- Edibility Row: Label and icons inline -->
+                    <div class="icon-row" style="display: flex; align-items: center; gap: 10px; margin-bottom: 0px;">
+                        <h3 style="margin: 0; padding-right: 10px;">Edibility:</h3>
+                        <div class="edibility-icons" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            {{ range $tags }}
+                                {{ if in (slice "edible" "inedible" "ediblecaution" "danger") . }}  <!-- Filter edibility tags -->
+                                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}  <!-- Look for SVG in folder -->
+                                    {{ if $icon }}  <!-- Check if icon exists -->
+                                        <div class="icon" style="margin: 0; padding: 0;">
+                                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 50px; height: 50px; margin: 0; padding: 0;">
+                                        </div>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+
+            {{ .Inner | markdownify }}
+        </div>
     </div>
 
     <!-- Right Column: Gallery -->
     <div class="right-column">
-        {{ $featuredImages := .Page.Resources.Match "*featured*" }}
+        {{ $featuredImages := .Page.Resources.Match "*main*" }}
         {{ $featured := index $featuredImages 0 }}
         {{ $images := .Page.Resources.Match "*" }}
 

@@ -1,16 +1,16 @@
 ---
-title: booze
-url: /recipes/booze
+title: boozetest1
+url: /booze/boozetest1
 layout: listrecipes
 
 sections:
 
   - block: collection
-    id: recipes
+    id: fewferf
     content:
-      title: Booze
+      title: boozetest1
       subtitle:
-      text: 'Boozy recipes Recipes from the kitchen. Many of these recipes are from...'
+      text: 'reqfqrefreqf'
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria

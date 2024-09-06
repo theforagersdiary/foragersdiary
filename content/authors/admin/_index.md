@@ -25,7 +25,7 @@ role: Forager
 #    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Forager and trespasser
+bio: Forager and trespasser some other text goes here and we. shall see what this displays like on the screen. no more guiessing. almost complete.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
