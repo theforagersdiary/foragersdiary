@@ -9,12 +9,11 @@
         </div>
         {{ end }}
 
-
-        <h1 class="mt-2 mb-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
-          {{- .Title -}}
+        <h1 class="mt-2 mb-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+          {{ .Title }} - <i>{{ .Params.latinname }}</i>
         </h1>
 
-        <div class ="mt-16 mb-2">
+        <div class ="mt-8 mb-2">
           {{ $featured := partial "functions/get_featured_image.html" . }}
           {{ if and $featured (not .Params.image.preview_only) }}
           {{ $image := $featured }}

@@ -1,5 +1,6 @@
 ---
-title: The Blusher - Aminita Rubecence
+title: The Blusher
+latinname: Amanita rubescens
 summary: testy mctesterson
 date: 2024-01-19
 authors:
