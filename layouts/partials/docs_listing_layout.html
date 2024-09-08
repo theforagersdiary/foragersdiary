@@ -10,38 +10,41 @@
         {{ end }}
 
         <h1 class="mt-2 mb-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
-          {{ .Title }} - <i>{{ .Params.latinname }}</i>
+          {{ .Title }} - <i>{{ .Params.latin_name }}</i>
         </h1>
 
-        <div class ="mt-8 mb-2">
+        <!-- Featured Image Section -->
+        <div class="mt-8 mb-2">
           {{ $featured := partial "functions/get_featured_image.html" . }}
           {{ if and $featured (not .Params.image.preview_only) }}
           {{ $image := $featured }}
           {{ $image_container := "article-container" }}
           {{ $image = $featured.Fit "1400x2500" }} 
           {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: 900px; margin: 0 0 8 0 auto; height: auto;"> <!-- Center the image -->
+          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: 900px; margin: 0 auto; height: auto;">
             <div style="position: relative">
               <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image">
               {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
             </div>
           </div>
-          {{end}}
+          {{ end }}
         </div>
 
-        <div class="prose prose-slate lg:prose-lg dark:prose-invert" style="max-width: 900px; margin: 0 auto;"> <!-- Center the content -->
+        <!-- Main Content Section -->
+        
+        <div class="prose prose-slate lg:prose-lg dark:prose-invert" style="max-width: 900px; margin: 0 auto;">
           {{ .Content }}
         </div>
   
         {{ partial "components/last-edited.html" . }}
   
-        <div class="container mx-auto prose prose-slate lg:prose-lg dark:prose-invert mt-5"> <!-- Center the footer -->
+        <div class="container mx-auto prose prose-slate lg:prose-lg dark:prose-invert mt-5">
           {{ .Scratch.Set "invert_pager" true }}
           {{ partial "tags" . }}
           {{ partial "components/next-in-series.html" . }}
           {{ partial "comments.html" . }}
         </div>
-  
+
       </main>
     </article>
-  </div>
+</div>

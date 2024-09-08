@@ -1,33 +1,42 @@
-{{ $tags := .Page.Params.tags | default slice }}  <!-- Load tags or set as empty if not found -->
+{{ $season := .Page.Params.season | default slice }}  <!-- Load season tags or set as empty if not found -->
+{{ $edibility := .Page.Params.edibility | default slice }}  <!-- Load edibility tags or set as empty if not found -->
 
-{{ if gt (len $tags) 0 }}  <!-- Check if there are any tags -->
-    <div class="icon-container text-neutral-700 dark:text-neutral-300" style="margin: 0; padding: 0; line-height: 1;">
-        <!-- First Row: Edibility Icons -->
-        <div class="icon-row season-row" style="display: flex; gap: 10px; justify-content: flex-start; margin-bottom: 10px; padding: 0; line-height: 1;">
-            {{ range $tags }}
-                {{ if in (slice "spring" "summer" "autumn" "winter") . }}  <!-- Filter season tags -->
-                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}  <!-- Look for SVG in folder -->
-                    {{ if $icon }}  <!-- Check if icon exists -->
+{{ if gt (len $season) 0 }} <!-- Check if there are any season tags -->
+    <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
+
+        <!-- Season Row: Label and icons inline -->
+        <div class="icon-row" style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            <h3 style="margin: 0; padding-right: 10px;">Season:</h3>
+            <div class="season-icons" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                {{ range $season }}
+                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }} <!-- Look for SVG in folder -->
+                    {{ if $icon }} <!-- Check if icon exists -->
                         <div class="icon" style="margin: 0; padding: 0;">
-                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 50px; height: 50px;">
+                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
                         </div>
                     {{ end }}
                 {{ end }}
-            {{ end }}
-        </div>
-
-        <!-- Second Row: Edibility Icons -->
-        <div class="icon-row edibility-row" style="display: flex; gap: 10px; justify-content: flex-start; margin-bottom: 0px; padding: 0; line-height: 1;">
-            {{ range $tags }}
-                {{ if in (slice "edible" "inedible" "ediblecaution" "danger") . }}  <!-- Filter edibility tags -->
-                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}  <!-- Look for SVG in folder -->
-                    {{ if $icon }}  <!-- Check if icon exists -->
-                        <div class="icon" style="margin: 0; padding: 0;">
-                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 50px; height: 50px;">
-                        </div>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
+            </div>
         </div>
     </div>
-{{ end }}
+{{ end }} <!-- Close season if block -->
+
+{{ if gt (len $edibility) 0 }} <!-- Check if there are any edibility tags -->
+    <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
+
+        <!-- Edibility Row: Label and icons inline -->
+        <div class="icon-row" style="display: flex; align-items: center; gap: 10px; margin-bottom: 0px;">
+            <h3 style="margin: 0; padding-right: 10px;">Edibility:</h3>
+            <div class="edibility-icons" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                {{ range $edibility }}
+                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }} <!-- Look for SVG in folder -->
+                    {{ if $icon }} <!-- Check if icon exists -->
+                        <div class="icon" style="margin: 0; padding: 0;">
+                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+{{ end }} <!-- Close edibility if block -->

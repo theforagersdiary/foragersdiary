@@ -19,7 +19,7 @@ sections:
         folders:
         author: ""
         category: ""
-        tag: "fungi with pores"
+        tag: "fungi with gills"
         publication_type: ""
         featured_only: false
         exclude_featured: false

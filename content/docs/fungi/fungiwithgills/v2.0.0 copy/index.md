@@ -1,18 +1,21 @@
 ---
-title: The Blusher - Aminita Rubecence
+url: /fungi/:title-khjhjkh
+title: The Blusher
+latin_name: Volvariella bombycina
+layout: docslisting
+edibility:
+  - Edible
+  - Inedible
+Season:
+  - summer
+  - autumn
+
 summary: testy mctesterson
 date: 2024-01-19
 authors:
 tags:
   - fungi
   - fungi with gills
-  - spring
-  - summer
-  - autumn
-  - winter
-  - ediblecaution
-  - inedible
-  - danger
   - wfhweihf
   - wjfhwkjfw jhgjhg
   - kknbc 
@@ -26,14 +29,19 @@ image:
 
 {{< two-columns-gallery >}}
 
-This is a summary of the plant or fungi. 
-Some key points:
-- point one
-- point two
-- point three
+**Name:** **-** - _-_  
+**Common names:** one, two, three  
+**Season:** (spring, summer, autumn, winter)  
+**Edibility:** (edible, inedible, edible with caution, danger)  
+**Fungi Type:** -
 
-Then some more text about it and what the uses and benefits are of it
+**Habitat**: (Confiferous woodland, Deciduous woodland etc)
 
+**Key Features**:
+
+- helo jewhdjwehd  
+- wehkjwdejh kjhwedh  
+- wedwhedkjkjwed kjwehdkjhwed
 
 {{< /two-columns-gallery >}}
 
