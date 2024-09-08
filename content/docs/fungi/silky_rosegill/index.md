@@ -108,11 +108,7 @@ categories:
   - fungi
 tags:
   - fungi
-  - edible
-  - fungi with gills
-  - summer
-  - autumn
-  - rare
+
 ---
 {{< two-columns-gallery >}}
 
