@@ -91,7 +91,7 @@ fungi_key_characteristics: |
   helo jewhdjwehd
   wehkjwdejh kjhwedh
   wedwhedkjkjwed kjwehdkjhwed
-url: /fungi/:title-Volvariella-bombycina
+url: /fungi/Silky-Rosegill-Volvariella-bombycina
 linkTitle: 
 fdtype: article
 layout: docslisting
