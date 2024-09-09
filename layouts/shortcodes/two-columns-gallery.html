@@ -8,7 +8,40 @@
     <div class="left-column" style=" border-radius: 10px; padding: 15px;">
         <div class="prose prose-slate dark:prose-invert mt-0 first:mt-0">
             <h2 style="text-align: center;">At A Glance:</h2>
+            {{ $season := .Page.Params.season | default slice }}
+{{ $edibility := .Page.Params.edibility | default slice }}
 
+{{ if or (gt (len $season) 0) (gt (len $edibility) 0) }}
+<div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
+
+    <!-- Season and Edibility Icons in One Row with a Gap Between Sections -->
+    <div class="icon-row" style="display: flex; align-items: center; gap: 50px; justify-content: center; flex-wrap: wrap;"> <!-- Center the icons -->
+
+        <!-- Season Icons -->
+        {{ if gt (len $season) 0 }}
+        <div class="season-icons" style="display: flex; gap: 10px;">
+            {{ range $season }}
+                <div class="icon" style="margin: 0; padding: 0;">
+                    <img src="{{ printf "/icons/%s.svg" . }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                </div>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <!-- Edibility Icons -->
+        {{ if gt (len $edibility) 0 }}
+        <div class="edibility-icons" style="display: flex; gap: 10px;">
+            {{ range $edibility }}
+                <div class="icon" style="margin: 0; padding: 0;">
+                    <img src="{{ printf "/icons/%s.svg" . }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                </div>
+            {{ end }}
+        </div>
+        {{ end }}
+
+    </div>
+</div>
+{{ end }} <!-- Close icon-container block -->
 
             {{ .Inner | markdownify }}
         </div>
