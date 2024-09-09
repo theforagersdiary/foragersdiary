@@ -1,42 +1,40 @@
-{{ $season := .Page.Params.season | default slice }}  <!-- Load season tags or set as empty if not found -->
-{{ $edibility := .Page.Params.edibility | default slice }}  <!-- Load edibility tags or set as empty if not found -->
+{{ $season := .Page.Params.season | default slice }}
+{{ $edibility := .Page.Params.edibility | default slice }}
+{{ if or (gt (len $season) 0) (gt (len $edibility) 0) }}
 
-{{ if gt (len $season) 0 }} <!-- Check if there are any season tags -->
-    <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
+<div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
 
-        <!-- Season Row: Label and icons inline -->
-        <div class="icon-row" style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-            <h3 style="margin: 0; padding-right: 10px;">Season:</h3>
-            <div class="season-icons" style="display: flex; gap: 10px; flex-wrap: wrap;">
-                {{ range $season }}
-                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }} <!-- Look for SVG in folder -->
-                    {{ if $icon }} <!-- Check if icon exists -->
-                        <div class="icon" style="margin: 0; padding: 0;">
-                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
-                        </div>
-                    {{ end }}
+    <!-- Season and Edibility Icons in One Row with a Gap Between Sections -->
+    <div class="icon-row" style="display: flex; align-items: center; gap: 50px; justify-content: center; flex-wrap: wrap;"> <!-- Center the icons -->
+
+        <!-- Season Icons -->
+        {{ if gt (len $season) 0 }}
+        <div class="season-icons" style="display: flex; gap: 10px;">
+            {{ range $season }}
+                {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}
+                {{ if $icon }}
+                <div class="icon" style="margin: 0; padding: 0;">
+                    <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                </div>
                 {{ end }}
-            </div>
+            {{ end }}
         </div>
-    </div>
-{{ end }} <!-- Close season if block -->
+        {{ end }}
 
-{{ if gt (len $edibility) 0 }} <!-- Check if there are any edibility tags -->
-    <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
-
-        <!-- Edibility Row: Label and icons inline -->
-        <div class="icon-row" style="display: flex; align-items: center; gap: 10px; margin-bottom: 0px;">
-            <h3 style="margin: 0; padding-right: 10px;">Edibility:</h3>
-            <div class="edibility-icons" style="display: flex; gap: 10px; flex-wrap: wrap;">
-                {{ range $edibility }}
-                    {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }} <!-- Look for SVG in folder -->
-                    {{ if $icon }} <!-- Check if icon exists -->
-                        <div class="icon" style="margin: 0; padding: 0;">
-                            <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
-                        </div>
-                    {{ end }}
+        <!-- Edibility Icons -->
+        {{ if gt (len $edibility) 0 }}
+        <div class="edibility-icons" style="display: flex; gap: 10px;">
+            {{ range $edibility }}
+                {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}
+                {{ if $icon }}
+                <div class="icon" style="margin: 0; padding: 0;">
+                    <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                </div>
                 {{ end }}
-            </div>
+            {{ end }}
         </div>
+        {{ end }}
+
     </div>
-{{ end }} <!-- Close edibility if block -->
+</div>
+{{ end }} <!-- Close icon-container block -->

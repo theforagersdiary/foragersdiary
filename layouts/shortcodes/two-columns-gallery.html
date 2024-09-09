@@ -1,53 +1,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
-{{ $season := .Page.Params.season | default slice }}
-{{ $edibility := .Page.Params.edibility | default slice }}
-{{ if or (gt (len $season) 0) (gt (len $edibility) 0) }}
+
 
 <div class="two-columns-container grid grid-cols-1 md:grid-cols-2 gap-5">
     <!-- Left Column: Render Markdown content -->
     <div class="left-column" style=" border-radius: 10px; padding: 15px;">
         <div class="prose prose-slate dark:prose-invert mt-0 first:mt-0">
             <h2 style="text-align: center;">At A Glance:</h2>
-            <!-- Load season and edibility tags -->
 
-            <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
-
-                <!-- Season and Edibility Icons in One Row with a Gap Between Sections -->
-                <div class="icon-row" style="display: flex; align-items: center; gap: 50px; justify-content: center; flex-wrap: wrap;"> <!-- Center the icons -->
-
-                    <!-- Season Icons -->
-                    {{ if gt (len $season) 0 }}
-                    <div class="season-icons" style="display: flex; gap: 10px;">
-                        {{ range $season }}
-                            {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}
-                            {{ if $icon }}
-                            <div class="icon" style="margin: 0; padding: 0;">
-                                <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
-                            </div>
-                            {{ end }}
-                        {{ end }}
-                    </div>
-                    {{ end }}
-
-                    <!-- Edibility Icons -->
-                    {{ if gt (len $edibility) 0 }}
-                    <div class="edibility-icons" style="display: flex; gap: 10px;">
-                        {{ range $edibility }}
-                            {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}
-                            {{ if $icon }}
-                            <div class="icon" style="margin: 0; padding: 0;">
-                                <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
-                            </div>
-                            {{ end }}
-                        {{ end }}
-                    </div>
-                    {{ end }}
-
-                </div>
-            </div>
-            {{ end }} <!-- Close icon-container block -->
 
             {{ .Inner | markdownify }}
         </div>
