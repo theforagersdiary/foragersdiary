@@ -207,6 +207,7 @@
       "hover:text-neutral-300",
       "hover:text-primary",
       "hover:text-primary-700",
+      "icon",
       "icon-container",
       "icon-row",
       "inline-block",

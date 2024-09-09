@@ -13,22 +13,7 @@
           {{ .Title }} - <i>{{ .Params.latin_name }}</i>
         </h1>
 
-        <!-- Featured Image Section -->
-        <div class="mt-8 mb-2">
-          {{ $featured := partial "functions/get_featured_image.html" . }}
-          {{ if and $featured (not .Params.image.preview_only) }}
-          {{ $image := $featured }}
-          {{ $image_container := "article-container" }}
-          {{ $image = $featured.Fit "1400x2500" }} 
-          {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-          <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-16" style="max-width: 900px; margin: 0 auto; height: auto;">
-            <div style="position: relative">
-              <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" class="featured-image">
-              {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
-            </div>
-          </div>
-          {{ end }}
-        </div>
+
 
         <!-- Main Content Section -->
         
