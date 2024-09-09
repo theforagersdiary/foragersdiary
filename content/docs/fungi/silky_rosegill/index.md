@@ -104,17 +104,21 @@ image:
 authors:
   - admin
 categories:
-  - foraging
-  - fungi
+  -
 tags:
   - fungi
+  - fungi with gills
+  - edible
+  - summer
+  - autumn
 
 ---
+
 {{< two-columns-gallery >}}
 
 **Silky Rosegill** - _Volvariella bombycina_   
 **Other names:**  *Agaricus bombycinus*, *Volvaria bombycina*  
-**Season:** Summer, Autumn  
+**Season:** Summer, Autumn
 **Edibility:** Edible  
 **Fungi Type:** Fungi With Gills, Saprobic
 
@@ -130,11 +134,6 @@ tags:
 
 {{< /two-columns-gallery >}}
 
-**Phylum:** Basidiomycota - **Class:** Agaricomycetes - **Order:** Agaricales - **Family:** Pluteaceae
-
-{{< ataglanceicons >}}
-
-{{< toc >}}
 
 The Silky Rosegill is a particularly beautiful fungi to come across. It's most commonly found growing by itself from dead deciduous wood. With careful observation, this fungi is easy to identify and it's a good edible species. However, because of its rarity, this species is best left be.
 
@@ -185,4 +184,5 @@ Volvariella refers to the prominent visible volva at the base of the stipe. Bomb
 ## References
 
 Mushrooms and other fungi of Great Britain and Europe - Roger Phillips
+
 The GB Checklist of Fungal Names - British Mycological Society 

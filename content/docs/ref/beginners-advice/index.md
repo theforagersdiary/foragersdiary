@@ -11,7 +11,8 @@ tags:
   - how to start foraging
 categories:
   - foraging
-weight: 1 
+weight: 10
+url: resources/foraging-where-to-start
 ---
 {{< toc mobile_only=false >}}
 
@@ -23,8 +24,8 @@ The utter beauty of foraging is that it demands nothing of us but our presence a
 
 Here's my ten penneth (two cents) as an experienced forager:
 
-- Get a good guidebook or two, get outside, and get curious. It’s as easy as that. There's a page with my recommended books and resources here: {{< card url="project-structure" title="Foraging Books & Resources" icon="document-duplicate" >}}
-- Start small. Don’t be too ambitious. There are plenty of quick wins—species that are readily available or easily identifiable without too much prior experience or knowledge. There are no shortcuts to becoming a knowledgeable forager.{{< card url="project-structure" title="First Foraging Plants for Complete Beginners" icon="document-duplicate" >}}
+- Get a good guidebook or two, get outside, and get curious. It’s as easy as that. There's a page with my recommended books and resources here: {{< card url="/resources/recommended-books" title="Foraging Books & Resources" icon="document-duplicate" >}}
+- Start small. Don’t be too ambitious. There are plenty of quick wins—species that are readily available or easily identifiable without too much prior experience or knowledge. There are no shortcuts to becoming a knowledgeable forager.
 - Let go. It’s easy to get caught up in finding a specific thing. Heading out on a foraging walk with the intention of identifying or finding a specific species is a surefire way to have an unenjoyable time, and there the path to madness lies. It will blindside you to the other discoveries available.
 - Foraging is a process, not a finish line.
 - Start at home. Get to know your local environment.
