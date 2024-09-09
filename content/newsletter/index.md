@@ -11,7 +11,7 @@ pager: false
 reading_time: false
 ---
 
-Stay up-to-date with The Foragers Diary. 
+Stay up-to-date with The Forager's Diary. 
 
 <form name="newsletter" netlify style="text-align: left;">
   <p>

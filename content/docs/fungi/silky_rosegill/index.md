@@ -116,10 +116,14 @@ tags:
 
 {{< two-columns-gallery >}}
 
-**Silky Rosegill** - _Volvariella bombycina_   
+**Silky Rosegill** - _Volvariella bombycina_
+
 **Other names:**  *Agaricus bombycinus*, *Volvaria bombycina*  
+
 **Season:** Summer, Autumn
+
 **Edibility:** Edible  
+
 **Fungi Type:** Fungi With Gills, Saprobic
 
 **Habitat**: Deciduous woodland, particularly found on elm, beech, maple, oak

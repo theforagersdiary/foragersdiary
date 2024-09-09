@@ -1,5 +1,5 @@
 ---
-title: Foraging - Where to start
+title: Foraging - Where to start?
 fdtype: article
 description: Advice on foraging and how to begin foraging
 date: 2024-08-31

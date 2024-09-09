@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: The Foragers Diary
+      title: The Forager's Diary
       text: Foraging Resources | Foraging Guides | Foraging Diary
       primary_action:
         text: Guides
@@ -44,7 +44,7 @@ sections:
   - block: collection
     id: recentposts
     content:
-      title: Recent Posts
+      title: Recent Additions
       count: 3
       filters: 
         folders:
