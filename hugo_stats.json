@@ -251,6 +251,7 @@
       "max-lg:hidden",
       "max-w-2xl",
       "max-w-5xl",
+      "max-w-[500px]",
       "max-w-none",
       "max-w-prose",
       "max-w-screen-lg",
@@ -487,6 +488,7 @@
       "tastesmell",
       "top",
       "welcome-to-the-foragers-diary",
+      "why-foraging",
       "why-im-making-my-notes-into-this-site"
     ]
   }
