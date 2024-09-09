@@ -1,7 +1,7 @@
 {{ $season := .Page.Params.season | default slice }}
 {{ $edibility := .Page.Params.edibility | default slice }}
-{{ if or (gt (len $season) 0) (gt (len $edibility) 0) }}
 
+{{ if or (gt (len $season) 0) (gt (len $edibility) 0) }}
 <div class="icon-container" style="margin: 0; padding: 0; line-height: 1;">
 
     <!-- Season and Edibility Icons in One Row with a Gap Between Sections -->
@@ -11,12 +11,9 @@
         {{ if gt (len $season) 0 }}
         <div class="season-icons" style="display: flex; gap: 10px;">
             {{ range $season }}
-                {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}
-                {{ if $icon }}
                 <div class="icon" style="margin: 0; padding: 0;">
-                    <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                    <img src="{{ printf "/icons/%s.svg" . }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
                 </div>
-                {{ end }}
             {{ end }}
         </div>
         {{ end }}
@@ -25,12 +22,9 @@
         {{ if gt (len $edibility) 0 }}
         <div class="edibility-icons" style="display: flex; gap: 10px;">
             {{ range $edibility }}
-                {{ $icon := resources.Get (printf "media/icons/custom/%s.svg" .) }}
-                {{ if $icon }}
                 <div class="icon" style="margin: 0; padding: 0;">
-                    <img src="{{ $icon.RelPermalink }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
+                    <img src="{{ printf "/icons/%s.svg" . }}" alt="{{ . }} icon" style="width: 40px; height: 40px; margin: 0; padding: 0;">
                 </div>
-                {{ end }}
             {{ end }}
         </div>
         {{ end }}

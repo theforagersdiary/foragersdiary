@@ -131,7 +131,9 @@ tags:
 {{< /two-columns-gallery >}}
 
 **Phylum:** Basidiomycota - **Class:** Agaricomycetes - **Order:** Agaricales - **Family:** Pluteaceae
+
 {{< ataglanceicons >}}
+
 {{< toc >}}
 
 The Silky Rosegill is a particularly beautiful fungi to come across. It's most commonly found growing by itself from dead deciduous wood. With careful observation, this fungi is easy to identify and it's a good edible species. However, because of its rarity, this species is best left be.
