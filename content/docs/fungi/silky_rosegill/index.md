@@ -34,7 +34,7 @@ distribution:
   - other parts of the world
 frequency: Rare
 identification_rating: "1"
-summary: 
+summary: The Silky Rosegill is a particularly beautiful fungi to come across. It's most commonly found growing by itself from dead deciduous wood. With careful observation, this fungi is easy to identify and it's a good edible species. However, because of its rarity, this species is best left be.
 fungi_cap_size: 50 - 200mm
 fungi_cap_shape:
   - ovate
