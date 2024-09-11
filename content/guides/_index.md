@@ -3,6 +3,7 @@ linkTitle:
 title: Guides
 subtitle: 'A subtitle or sumfink'
 url:
+type: guides
 layout: single
 reading_time: false
 hide_date: true

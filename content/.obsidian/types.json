@@ -6,6 +6,7 @@
     "notes": "multitext",
     "f_flesh": "multitext",
     "f_stipe": "multitext",
-    "date": "text"
+    "date": "text",
+    "aka": "multitext"
   }
 }

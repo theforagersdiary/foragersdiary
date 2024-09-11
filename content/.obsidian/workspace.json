@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/fungi template 1.md",
-                "mode": "preview",
+                "file": "guides/_index.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/fungi template 1.md",
+                "file": "guides/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/fungi template 1.md",
+                "file": "guides/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/fungi template 1.md"
+                "file": "guides/_index.md"
               }
             }
           },
@@ -151,10 +151,19 @@
   },
   "active": "8797b0298ce83e9e",
   "lastOpenFiles": [
+    "guides/resources/books-resources/index.md",
+    "guides/resources/recipes/booze/index.md",
+    "guides/resources/recipes/condiments/index.md",
+    "guides/resources/recipes/_index.md",
+    "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre/index.md",
+    "guides/resources/recipes/recipesfolder/vinaigrette/index.md",
+    "guides/resources/recipes/recipesfolder/vinaigrette/mainfeatured_blackberry_liqueur.jpg",
+    "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre/mainfeatured_blackberry_liqueur.jpg",
+    "guides/_index.md",
     "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
     "guides/resources/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides.md",
-    "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
     "templates/fungi template 1.md",
+    "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
     "guides/fungi/brown-rollrim-paxillus-involutus/mainIMG_4137.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4136.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4136.jpg~bak.jpg",
@@ -163,8 +172,6 @@
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4142.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4143.jpg~bak.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4142.jpg~bak.jpg",
-    "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4141.jpg",
-    "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4138.jpg",
     "guides/fungi/silky_rosegill/index.md",
     "output/attachment",
     "output",
@@ -172,14 +179,9 @@
     "templates",
     "guides/fungi/_index.md",
     "guides/resources/books/_index.md",
-    "guides/resources/recipes/recipesfolder/vinaigrette/index.md",
-    "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre/index.md",
-    "guides/resources/books-resources/index.md",
     "guides/resources/beginners-advice/index.md",
     "guides/resources/recipes/recipesfolder/vinaigrette",
     "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre",
-    "guides/resources/recipes/condiments/index.md",
-    "guides/resources/recipes/booze/index.md",
     "guides/resources/books-resources",
     "guides/resources/books",
     "guides/resources/beginners-advice",
@@ -187,9 +189,7 @@
     "guides/resources/Fungi_Glossary.md",
     "guides/resources/recipes/recipesfolder",
     "guides/resources/recipes/condiments",
-    "guides/resources/recipes/_index.md",
     "guides/plants/_index.md",
-    "guides/_index.md",
     "guide/resources/books/_index.md",
     "guide/resources/books/Mushrooms_and_other_fungi_of_Great_Britain_&_Europe_-_Roger_Phillips-1981.md",
     "guide/resources/beginners-advice/index.md",

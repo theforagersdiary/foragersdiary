@@ -11,7 +11,7 @@ phylum: Basidiomycota
 class: Agaricomycetes
 order: Boletales
 family: Paxillaceae
-aka: |
+aka:
   - Brown Rollrim
   - Brown Roll Rim
   - Agaricus _contiguus_
