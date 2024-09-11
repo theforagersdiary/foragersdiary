@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "guides/resources/_index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "guides/resources/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "guides/resources/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "guides/resources/_index.md"
               }
             }
           },
@@ -151,8 +151,8 @@
   },
   "active": "8797b0298ce83e9e",
   "lastOpenFiles": [
-    "templates/fungi template 1.md",
     "_index.md",
+    "templates/fungi template 1.md",
     "templates/fungi template.md",
     "guides/_index.md",
     "guides/resources/_index.md",
