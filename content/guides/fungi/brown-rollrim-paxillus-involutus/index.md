@@ -130,25 +130,25 @@ tags:
 {{< /two-columns-gallery >}}
 
 ---
+
 An inviting looking mushroom with some Agatha Christie-esque poisonous tricks up it's sleeve, the Brown Rollrim is a common sight on foraging excursions, but one left out of the basket.
 
 ---
-Etymology - Paxillus = peg or small stake, involutus = inrolled
 
 ## Habitat/Season
 
-Habitat: Deciduous woodland, Coniferous woodland, Parks, Gardens, Grassland, Heathland
+**Habitat:** Deciduous woodland, Coniferous woodland, Parks, Gardens, Grassland, Heathland
 
-Season: Jul, Aug, Sep, Oct, Nov
+**Season:** Jul, Aug, Sep, Oct, Nov
 
 Preferring to grow under birch and other broadleaved trees, they can however be found almost anywhere else where there is suitable mycorrhizal partners including deciduous and coniferous woodland, parks, gardens and lawns.
 
 ## Cap/Flesh/Fruiting Body
 
-Average cap size: 50 - 150mm  
-Cap shape: convex, flat, depressed, umbonate  
-Cap colour: brown, ochre  
-Cap margin: inrolled
+**Average cap size:** 50 - 150mm  
+**Cap shape:** convex, flat, depressed, umbonate  
+**Cap colour:** brown, ochre  
+**Cap margin:** inrolled
 
 The colour can vary, but is always in the 'brown' category. Usually starting out lighter, before darkening with age.  
 Young species start with a convex cap shape which soon flattens out and becomes depressed, often with a small boss in the centre.  
@@ -156,20 +156,19 @@ The cap edges, surprise surprise, roll inwards. Older ones often have a sort of 
 When dry, the cap is smooth, often with a fine felting. When wet, the surface feels slimy.  
 When bruised or cut, the gills/stem/flesh turn a darker brown almost immediately.
 
-## Gills/Pores/Tubes/Spore
 
-Gill density: crowded  
-Gill colour: pale ochre, brown  
-Gill attachment: decurrent  
-Spore print: brown, sienna  
-Spore shape: ellipsoidal, smooth
+## Gills/Spores
+
+
+**Gill density:** crowded  
+**Gill colour:** pale ochre, brown  
+**Gill attachment:** decurrent  
+**Spore print:** brown, sienna  
+**Spore shape:** ellipsoidal, smooth
 
 As with the cap, the gills turn from a lighter brown to a darker one with age, and can darken when bruised/damaged. You'll often see flecks of 'rust' colouring the whole fungi, especially the gills. The gills are crowded and decurrent, meaning there's a lot of them, and that they run down part of the stem.
 
 ## Stem/Ring/Volva
-
-almost always curved, uniform diameter until cap  
-no ring
 
 Sharing the same colouring and bruising features as its cap and gills, the stem is also almost always curved and has a fairly uniform diameter up until the cap/gills.
 
@@ -181,11 +180,12 @@ Velvet Rollrim - grows on wood, usually on or near conifer stumps. Also consider
 
 ## Edibility/Taste/Smell
 
-Unsafe to eat. Mild mushroomy smell. Sharp acidic slightly mushroomy taste.
+Unsafe to eat. Mild unpronounced mushroomy smell. Sharp acidic slightly mushroomy taste.
 
-## Medicinal Uses
 
 ## Notes
+
+**Etymology:** Paxillus = peg or small stake, involutus = inrolled
 
 Still eaten in some areas of the world. Prepared by boiling. Water thrown away before final cooking. This is considered the right approach like other species to remove the toxins. The soluble ones are mostly removed. However there are many other complex toxins that are not.
 
@@ -202,5 +202,7 @@ Don't eat these.
 ### References
 
 [Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](/guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981)
+
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](/guides/resources/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides)
 
 [^1]: https://www.first-nature.com/

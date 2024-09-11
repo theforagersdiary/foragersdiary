@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
-                "mode": "source",
+                "file": "templates/fungi template 1.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
+                "file": "templates/fungi template 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
+                "file": "templates/fungi template 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md"
+                "file": "templates/fungi template 1.md"
               }
             }
           },
@@ -149,8 +149,12 @@
       "ob2static-site:Trigger GitHub Action deploy": false
     }
   },
-  "active": "061fe39da7c9e464",
+  "active": "8797b0298ce83e9e",
   "lastOpenFiles": [
+    "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
+    "guides/resources/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides.md",
+    "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
+    "templates/fungi template 1.md",
     "guides/fungi/brown-rollrim-paxillus-involutus/mainIMG_4137.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4136.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4136.jpg~bak.jpg",
@@ -161,34 +165,29 @@
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4142.jpg~bak.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4141.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4138.jpg",
-    "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4141.jpg~bak.jpg",
     "guides/fungi/silky_rosegill/index.md",
-    "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
-    "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
     "output/attachment",
     "output",
-    "templates/fungi template 1.md",
     "templates/fungi template.md",
     "templates",
-    "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
     "guides/fungi/_index.md",
     "guides/resources/books/_index.md",
-    "guides/recipes/recipesfolder/vinaigrette/index.md",
-    "guides/recipes/recipesfolder/blackberryliqueurcrèmedemûre/index.md",
+    "guides/resources/recipes/recipesfolder/vinaigrette/index.md",
+    "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre/index.md",
     "guides/resources/books-resources/index.md",
     "guides/resources/beginners-advice/index.md",
-    "guides/recipes/recipesfolder/vinaigrette",
-    "guides/recipes/recipesfolder/blackberryliqueurcrèmedemûre",
-    "guides/recipes/condiments/index.md",
-    "guides/recipes/booze/index.md",
+    "guides/resources/recipes/recipesfolder/vinaigrette",
+    "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre",
+    "guides/resources/recipes/condiments/index.md",
+    "guides/resources/recipes/booze/index.md",
     "guides/resources/books-resources",
     "guides/resources/books",
     "guides/resources/beginners-advice",
     "guides/resources/_index.md",
     "guides/resources/Fungi_Glossary.md",
-    "guides/recipes/recipesfolder",
-    "guides/recipes/condiments",
-    "guides/recipes/_index.md",
+    "guides/resources/recipes/recipesfolder",
+    "guides/resources/recipes/condiments",
+    "guides/resources/recipes/_index.md",
     "guides/plants/_index.md",
     "guides/_index.md",
     "guide/resources/books/_index.md",

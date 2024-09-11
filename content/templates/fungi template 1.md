@@ -11,7 +11,7 @@ phylum: Basidiomycota
 class: Agaricomycetes
 order: Boletales
 family: Paxillaceae
-aka:
+aka: |
   - Brown Rollrim
   - Brown Roll Rim
   - Agaricus _contiguus_
@@ -124,46 +124,54 @@ tags:
 
 {{< /two-columns-gallery >}}
 
+---
+
 `= this.summary`
 
-Etymology - `=this.etymology`
+---
 
 
 ## Habitat/Season
 
-Habitat: `=this.habitat`
+**Habitat:** `=this.habitat`
 
-Season: `=this.months`
+**Season:** `=this.months`
 
 Preferring to grow under birch and other broadleaved trees, they can however be found almost anywhere else where there is suitable mycorrhizal partners including deciduous and coniferous woodland, parks, gardens and lawns.
 
 
 ## Cap/Flesh/Fruiting Body
 
-Average cap size: `=this.f_width`
-Cap shape: `=this.f_cap_shape`
-Cap colour: `=this.f_cap_colour`
-Cap margin: `=this.f_cap_margin`
+**Average cap size:** `=this.f_width`
+**Cap shape:** `=this.f_cap_shape`
+**Cap colour:** `=this.f_cap_colour`
+**Cap margin:** `=this.f_cap_margin`
 
 The colour can vary, but is always in the 'brown' category. Usually starting out lighter, before darkening with age.
 Young species start with a convex cap shape which soon flattens out and becomes depressed, often with a small boss in the centre.
 The cap edges, surprise surprise, roll inwards. Older ones often have a sort of 'pie crust' crimping pattern to the rim, as seen in the photos.
 When dry, the cap is smooth, often with a fine felting. When wet, the surface feels slimy.
 When bruised or cut, the gills/stem/flesh turn a darker brown almost immediately. 
+
+
 ## Gills/Pores/Tubes/Spore
 
-Gill density: `= this.f_gill_density`
-Gill colour: `=this.f_gill_colour`
-Gill attachment: `=this.f_gill_attachment`
-Spore print: `=this.f_spore_print`
-Spore shape: `=this.f_spore_shape`
+
+**Gill density:** `= this.f_gill_density`
+**Gill colour:** `=this.f_gill_colour`
+**Gill attachment:** `=this.f_gill_attachment`
+**Spore print:** `=this.f_spore_print`
+**Spore shape:** `=this.f_spore_shape`
 
 As with the cap, the gills turn from a lighter brown to a darker one with age, and can darken when bruised/damaged. You'll often see flecks of 'rust' colouring the whole fungi, especially the gills. The gills are crowded and decurrent, meaning there's a lot of them, and that they run down part of the stem.
+
 ## Stem/Ring/Volva
+
 `=this.f_stipe`
 `=this.f_stipe_ring`
 
 Sharing the same colouring and bruising features as its cap and gills, the stem is also almost always curved and has a fairly uniform diameter up until the cap/gills. 
+
 ## Possible Confusions
 
 At a glance, the Brown Rollrim could possibly be mistaken for one of the funnel shaped fungi (eg. oyster or chanterelle) or milkcap species.
@@ -178,6 +186,8 @@ Unsafe to eat. Mild mushroomy smell. Sharp acidic slightly mushroomy taste.
 
 
 ## Notes
+
+**Etymology:** `= this.etymology`
 
 Still eaten in some areas of the world. Prepared by boiling. Water thrown away before final cooking. This is considered the right approach like other species to remove the toxins. The soluble ones are mostly removed. However there are many other complex toxins that are not.
 
