@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/resources/books/_index.md",
+                "file": "guides/resources/recipes/booze/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guides/resources/books/_index.md",
+                "file": "guides/resources/recipes/booze/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guides/resources/books/_index.md",
+                "file": "guides/resources/recipes/booze/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guides/resources/books/_index.md"
+                "file": "guides/resources/recipes/booze/index.md"
               }
             }
           },
@@ -149,14 +149,16 @@
       "ob2static-site:Trigger GitHub Action deploy": false
     }
   },
-  "active": "8797b0298ce83e9e",
+  "active": "061fe39da7c9e464",
   "lastOpenFiles": [
+    "guides/resources/recipes/condiments/index.md",
+    "guides/resources/recipes/_index.md",
+    "guides/resources/_index.md",
+    "guides/resources/books/_index.md",
     "guides/resources/fungi-glossary/_index.md",
     "guides/resources/fungi-glossary/Fungi_Glossary.md",
-    "guides/resources/_index.md",
     "guides/resources/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides.md",
     "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
-    "guides/resources/books/_index.md",
     "guides/resources/beginners-advice/index.md",
     "guides/resources/fungi-glossary",
     "guides/plants/_index.md",
@@ -167,8 +169,6 @@
     "guides/fungi/_index.md",
     "guides/resources/books-resources/index.md",
     "guides/resources/recipes/booze/index.md",
-    "guides/resources/recipes/condiments/index.md",
-    "guides/resources/recipes/_index.md",
     "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre/index.md",
     "guides/resources/recipes/recipesfolder/vinaigrette/index.md",
     "guides/resources/recipes/recipesfolder/vinaigrette/mainfeatured_blackberry_liqueur.jpg",
