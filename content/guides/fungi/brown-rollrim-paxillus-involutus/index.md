@@ -120,11 +120,11 @@ tags:
 
 **Key Features**:
 
-Brown all over in varying shades.  
-Smooth felt-like texture to cap when dry. Slimy when wet.  
-Cap margin is rolled.  
-Changes to a darker brown where bruised of cut  
-Older caps often develop a funnel like with central depression and small boss. Pie-crust crimp patterning on cap edge
+- Brown all over in varying shades.  
+- Smooth felt-like texture to cap when dry. Slimy when wet.  
+- Cap margin is rolled.  
+- Changes to a darker brown where bruised of cut  
+- Older caps often develop a funnel like with central depression and small boss. Pie-crust crimp patterning on cap edge
 
 
 {{< /two-columns-gallery >}}
