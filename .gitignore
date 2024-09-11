@@ -6,4 +6,4 @@ resources/
 public/
 jsconfig.json
 
-.obsidian
+content/.obsidian
