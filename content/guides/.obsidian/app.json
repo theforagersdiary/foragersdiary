@@ -1,9 +1,0 @@
-{
-  "newLinkFormat": "absolute",
-  "useMarkdownLinks": true,
-  "attachmentFolderPath": "./",
-  "livePreview": false,
-  "foldHeading": false,
-  "foldIndent": false,
-  "tabSize": 2
-}
