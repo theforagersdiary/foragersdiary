@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/_index.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guides/_index.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guides/_index.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guides/_index.md"
+                "file": "_index.md"
               }
             }
           },
@@ -151,10 +151,13 @@
   },
   "active": "8797b0298ce83e9e",
   "lastOpenFiles": [
+    "templates/fungi template 1.md",
+    "_index.md",
+    "templates/fungi template.md",
+    "guides/_index.md",
     "guides/resources/_index.md",
     "guides/fungi/_index.md",
     "guides/plants/_index.md",
-    "guides/_index.md",
     "guides/resources/books-resources/index.md",
     "guides/resources/recipes/booze/index.md",
     "guides/resources/recipes/condiments/index.md",
@@ -165,7 +168,6 @@
     "guides/resources/recipes/recipesfolder/blackberryliqueurcrèmedemûre/mainfeatured_blackberry_liqueur.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
     "guides/resources/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides.md",
-    "templates/fungi template 1.md",
     "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
     "guides/fungi/brown-rollrim-paxillus-involutus/mainIMG_4137.jpg",
     "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4136.jpg",
@@ -178,7 +180,6 @@
     "guides/fungi/silky_rosegill/index.md",
     "output/attachment",
     "output",
-    "templates/fungi template.md",
     "templates",
     "guides/resources/books/_index.md",
     "guides/resources/beginners-advice/index.md",
