@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/resources/_index.md",
+                "file": "guides/resources/fungi-glossary/_index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guides/resources/_index.md",
+                "file": "guides/resources/fungi-glossary/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guides/resources/_index.md",
+                "file": "guides/resources/fungi-glossary/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guides/resources/_index.md"
+                "file": "guides/resources/fungi-glossary/_index.md"
               }
             }
           },
@@ -151,8 +151,11 @@
   },
   "active": "8797b0298ce83e9e",
   "lastOpenFiles": [
-    "guides/plants/_index.md",
+    "guides/resources/fungi-glossary/Fungi_Glossary.md",
+    "guides/resources/fungi-glossary/_index.md",
+    "guides/resources/fungi-glossary",
     "guides/resources/_index.md",
+    "guides/plants/_index.md",
     "_index.md",
     "templates/fungi template 1.md",
     "templates/fungi template.md",
@@ -188,14 +191,11 @@
     "guides/resources/books-resources",
     "guides/resources/books",
     "guides/resources/beginners-advice",
-    "guides/resources/Fungi_Glossary.md",
     "guides/resources/recipes/recipesfolder",
-    "guides/resources/recipes/condiments",
     "guide/resources/books/_index.md",
     "guide/resources/books/Mushrooms_and_other_fungi_of_Great_Britain_&_Europe_-_Roger_Phillips-1981.md",
     "guide/resources/beginners-advice/index.md",
     "guide/resources/books-resources/index.md",
-    "guide/resources/_index.md",
-    "guide/resources/Fungi_Glossary.md"
+    "guide/resources/_index.md"
   ]
 }
