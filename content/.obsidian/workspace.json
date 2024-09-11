@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "914273339b05b355",
+        "id": "5d504413ff169c05",
         "type": "tabs",
         "children": [
           {
-            "id": "934c01f34ef89a2e",
+            "id": "8797b0298ce83e9e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 545.5
+    "width": 287.5
   },
   "right": {
     "id": "29aef539a333528a",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "348bb3e9bd0e11f3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -118,7 +113,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "guides/fungi/brown-rollrim-paxillus-involutus/index.md"
+              }
+            }
+          },
+          {
+            "id": "b10100cfe1703c1b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
         ]
@@ -131,57 +140,62 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-import-json:JSON/CSV Importer": false
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "publish:Publish changes...": false,
+      "ob2static-site:Current file - Static Site MD Export": false,
+      "ob2static-site:All validate files - Static Site MD Export": false,
+      "ob2static-site:Trigger GitHub Action deploy": false
     }
   },
-  "active": "934c01f34ef89a2e",
+  "active": "8797b0298ce83e9e",
   "lastOpenFiles": [
-    "mkdn/battarrea_phalloides_dicks_pers_sandy_stiltball.md",
-    "Untitled.md",
-    "mkdn/battarrea_phalloides_php.md",
-    "mkdn/bisporella_citrina_batsch_korf_amp_s_e_carp_lemon_.md",
-    "mkdn/agaricus_augustus_php.md",
-    "mkdn/agaricus_augustus_fr_the_prince.md",
-    "mkdn/agaricus_bernardii_php.md",
-    "mkdn/agaricus_arvensis_schaeff_horse_mushroom.md",
-    "mkdn/agaricus_arvensis_php.md",
-    "mkdn/abortiporus_biennis_php.md",
-    "mkdn/geopora_arenosa_php.md",
-    "mkdn/russula_laricina_php.md",
-    "mkdn/panus_rudis_php.md",
-    "mkdn/mycena_pura_php.md",
-    "mkdn/peziza_badia_php.md",
-    "mkdn/mycena_rosea_php.md",
-    "mkdn/lepista_nuda_php.md",
-    "mkdn/cyathus_olla_php.md",
-    "mkdn/aseroe_rubra_php.md",
-    "mkdn/russula_vesca_php.md",
-    "mkdn/russula_rosea_php.md",
-    "mkdn/russula_grata_php.md",
-    "mkdn/russula_aurea_php.md",
-    "mkdn/ramaria_flava_php.md",
-    "mkdn/postia_caesia_php.md",
-    "mkdn/lepista_saeva_php.md",
-    "mkdn",
-    "Rewards.zip",
-    "Rewards/Rowan",
-    "Rewards",
-    "Rewards 2",
-    "Rewards/Rowan Mountain Ash",
-    "docs/fungi/blusher/IMG_3896.jpg",
-    "docs/fungi/blusher/IMG_3894.jpg",
-    "docs/fungi/blusher/IMG_3890.jpg",
-    "docs/fungi/blusher/IMG_3891.jpg",
-    "docs/fungi/blusher/IMG_3887.jpg",
-    "docs/fungi/blusher/IMG_3900.jpg",
-    "docs/fungi/blusher/IMG_3889.jpg",
-    "docs/fungi/blusher/IMG_3898.jpg",
-    "docs/fungi/blusher/mainIMG_3888.jpg",
-    "docs/fungi/blusher"
+    "guides/fungi/silky_rosegill/index.md",
+    "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
+    "guides/fungi/brown-rollrim-paxillus-involutus/index.md",
+    "output/attachment",
+    "output",
+    "templates/fungi template 1.md",
+    "templates/fungi template.md",
+    "templates",
+    "guides/resources/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981.md",
+    "guides/fungi/brown-rollrim-paxillus-involutus/IMG_4136.jpg",
+    "guides/fungi/_index.md",
+    "guides/resources/books/_index.md",
+    "guides/recipes/recipesfolder/vinaigrette/mainfeatured_blackberry_liqueur.jpg",
+    "guides/recipes/recipesfolder/blackberryliqueurcrèmedemûre/mainfeatured_blackberry_liqueur.jpg",
+    "guides/recipes/recipesfolder/vinaigrette/index.md",
+    "guides/recipes/recipesfolder/blackberryliqueurcrèmedemûre/index.md",
+    "guides/resources/books-resources/index.md",
+    "guides/resources/books-resources/IMG_0764main.jpeg",
+    "guides/resources/beginners-advice/index.md",
+    "guides/resources/beginners-advice/backgroundbirdsmain4featured.jpg",
+    "guides/recipes/recipesfolder/vinaigrette",
+    "guides/recipes/recipesfolder/blackberryliqueurcrèmedemûre",
+    "guides/recipes/condiments/index.md",
+    "guides/recipes/booze/index.md",
+    "guides/fungi/silky_rosegill/mainIMG_3888.jpg",
+    "guides/fungi/silky_rosegill/IMG_3900.jpg",
+    "guides/fungi/silky_rosegill/IMG_3898.jpg",
+    "guides/fungi/silky_rosegill/IMG_3896.jpg",
+    "guides/fungi/silky_rosegill/IMG_3894.jpg",
+    "guides/resources/books-resources",
+    "guides/resources/books",
+    "guides/resources/beginners-advice",
+    "guides/resources/_index.md",
+    "guides/resources/Fungi_Glossary.md",
+    "guides/recipes/recipesfolder",
+    "guides/recipes/condiments",
+    "guides/recipes/_index.md",
+    "guides/plants/_index.md",
+    "guides/_index.md",
+    "guide/resources/books/_index.md",
+    "guide/resources/books/Mushrooms_and_other_fungi_of_Great_Britain_&_Europe_-_Roger_Phillips-1981.md",
+    "guide/resources/beginners-advice/index.md",
+    "guide/resources/books-resources/index.md",
+    "guide/resources/_index.md",
+    "guide/resources/Fungi_Glossary.md",
+    "guide/recipes/recipesfolder/vinaigrette/index.md"
   ]
 }

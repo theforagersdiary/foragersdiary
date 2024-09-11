@@ -1,4 +1,19 @@
 {
   "livePreview": false,
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "visible",
+  "foldIndent": false,
+  "foldHeading": false,
+  "tabSize": 2,
+  "newFileLocation": "root",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "strictLineBreaks": false,
+  "newLinkFormat": "absolute",
+  "alwaysUpdateLinks": true,
+  "autoPairMarkdown": false,
+  "smartIndentList": false,
+  "useTab": true,
+  "autoConvertHtml": true,
+  "showIndentGuide": false
 }
