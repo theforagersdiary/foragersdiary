@@ -1,16 +1,16 @@
 ---
-title: boozetets
-url: /recipes/booze/boozetets
+title: Booze
+url: /recipes/booze
 layout: listrecipes
-
+weight: 1
 sections:
 
   - block: collection
-    id: recipes
+    id: fewferf
     content:
-      title: Boozetets
+      title: Booze
       subtitle:
-      text: 'Recipes from the kitchen. Many of these recipes are from...'
+      text: 'Alcohol related recipes'
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
@@ -19,7 +19,7 @@ sections:
         folders:
         author: ""
         category: ""
-        tag: "boozetest"
+        tag: "booze"
         publication_type: ""
         featured_only: false
         exclude_featured: false
@@ -33,7 +33,7 @@ sections:
       sort_ascending: true
     design:
       view: article-grid
-      columns: 4
+      columns:
       spacing:
         padding: ['0rem', 0, '6rem', 0]
 ---

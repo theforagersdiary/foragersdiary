@@ -1,16 +1,16 @@
 ---
-title: boozetest1
-url: /booze/boozetest1
+title: Sauces & Dressings
+url: /recipes/condiments
 layout: listrecipes
-
+weight: 2
 sections:
 
   - block: collection
-    id: fewferf
+    id: sauce
     content:
-      title: boozetest1
+      title: Sauces and Dressings Recipes
       subtitle:
-      text: 'reqfqrefreqf'
+      text: 'Everything tastes better with a good sauce!'
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
@@ -19,7 +19,7 @@ sections:
         folders:
         author: ""
         category: ""
-        tag: "booze"
+        tag: "condiment"
         publication_type: ""
         featured_only: false
         exclude_featured: false
@@ -33,7 +33,7 @@ sections:
       sort_ascending: true
     design:
       view: article-grid
-      columns: 4
+      columns:
       spacing:
         padding: ['0rem', 0, '6rem', 0]
 ---

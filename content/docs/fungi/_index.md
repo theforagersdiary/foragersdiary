@@ -1,6 +1,7 @@
 ---
 title: Fungi
 url: /fungi/
+type: docs
 layout: listrecipes
 weight: 3
 sections:
@@ -10,7 +11,7 @@ sections:
     content:
       title: Fungi
       subtitle:
-      text: 'Fungi listings can be sorted using the side menu (accessed through the hamburger icon on mobiles). Each one is handily broken down into "Fungi with gills", "Fungi with pores", "Other Fungi".'
+      text:
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria

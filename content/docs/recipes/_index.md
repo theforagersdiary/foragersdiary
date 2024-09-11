@@ -1,6 +1,7 @@
 ---
 title: Recipes
 url: /recipes/
+type: docs
 layout: listrecipes
 weight: 4
 sections:
@@ -10,13 +11,14 @@ sections:
     content:
       title: Recipes
       subtitle:
-      text: 'Recipes from the kitchen. Many of these recipes are from...'
+      text:
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
       filters:
         # The folders to display content from
         folders:
+        
         author: ""
         category: ""
         tag: "recipe"

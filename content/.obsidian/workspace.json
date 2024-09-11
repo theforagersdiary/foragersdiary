@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "eaead4ec852e1974",
+    "type": "split",
+    "children": [
+      {
+        "id": "914273339b05b355",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "934c01f34ef89a2e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd72825c91be932f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9133364a68d8377",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "061fe39da7c9e464",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee0034b8b73dcab7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f99f64b9acd1e2e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 545.5
+  },
+  "right": {
+    "id": "29aef539a333528a",
+    "type": "split",
+    "children": [
+      {
+        "id": "13c5dc0944790c6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a3a5591002c28b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd5d437983e75de7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "348bb3e9bd0e11f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "85cccf51154e2856",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-import-json:JSON/CSV Importer": false
+    }
+  },
+  "active": "934c01f34ef89a2e",
+  "lastOpenFiles": [
+    "mkdn/battarrea_phalloides_dicks_pers_sandy_stiltball.md",
+    "Untitled.md",
+    "mkdn/battarrea_phalloides_php.md",
+    "mkdn/bisporella_citrina_batsch_korf_amp_s_e_carp_lemon_.md",
+    "mkdn/agaricus_augustus_php.md",
+    "mkdn/agaricus_augustus_fr_the_prince.md",
+    "mkdn/agaricus_bernardii_php.md",
+    "mkdn/agaricus_arvensis_schaeff_horse_mushroom.md",
+    "mkdn/agaricus_arvensis_php.md",
+    "mkdn/abortiporus_biennis_php.md",
+    "mkdn/geopora_arenosa_php.md",
+    "mkdn/russula_laricina_php.md",
+    "mkdn/panus_rudis_php.md",
+    "mkdn/mycena_pura_php.md",
+    "mkdn/peziza_badia_php.md",
+    "mkdn/mycena_rosea_php.md",
+    "mkdn/lepista_nuda_php.md",
+    "mkdn/cyathus_olla_php.md",
+    "mkdn/aseroe_rubra_php.md",
+    "mkdn/russula_vesca_php.md",
+    "mkdn/russula_rosea_php.md",
+    "mkdn/russula_grata_php.md",
+    "mkdn/russula_aurea_php.md",
+    "mkdn/ramaria_flava_php.md",
+    "mkdn/postia_caesia_php.md",
+    "mkdn/lepista_saeva_php.md",
+    "mkdn",
+    "Rewards.zip",
+    "Rewards/Rowan",
+    "Rewards",
+    "Rewards 2",
+    "Rewards/Rowan Mountain Ash",
+    "docs/fungi/blusher/IMG_3896.jpg",
+    "docs/fungi/blusher/IMG_3894.jpg",
+    "docs/fungi/blusher/IMG_3890.jpg",
+    "docs/fungi/blusher/IMG_3891.jpg",
+    "docs/fungi/blusher/IMG_3887.jpg",
+    "docs/fungi/blusher/IMG_3900.jpg",
+    "docs/fungi/blusher/IMG_3889.jpg",
+    "docs/fungi/blusher/IMG_3898.jpg",
+    "docs/fungi/blusher/mainIMG_3888.jpg",
+    "docs/fungi/blusher"
+  ]
+}

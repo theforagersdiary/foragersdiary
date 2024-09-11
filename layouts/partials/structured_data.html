@@ -41,6 +41,7 @@
 {{- end -}}
 
 {{- if eq $fdtype "recipe" -}}
+{{- if (gt (len .Params.ingredients) 0) -}} <!-- Check if 'ingredients' array has items -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,29 +53,27 @@
   },
   "description": "{{ .Params.description }}",
   "recipeIngredient": [
-    {{ range $index, $ingredient := .Params.ingredients }}
+    {{- range $index, $ingredient := .Params.ingredients -}}
       "{{ $ingredient }}"{{ if lt $index (sub (len .Params.ingredients) 1) }},{{ end }}
-    {{ end }}
+    {{- end -}}
   ],
   "recipeInstructions": [
-    {{ range $index, $instruction := .Params.instructions }}
+    {{- range $index, $instruction := .Params.instructions -}}
       {
         "@type": "HowToStep",
         "text": "{{ $instruction }}"
       }{{ if lt $index (sub (len .Params.instructions) 1) }},{{ end }}
-    {{ end }}
+    {{- end -}}
   ],
   "image": "{{ with (.Resources.GetMatch "featured*") }}{{ .Permalink }}{{ end }}",
   "prepTime": "{{ .Params.prepTime }}",
-  "cookTime": "{{ .Params.cookTime }}",
   "totalTime": "{{ .Params.totalTime }}",
   "recipeYield": "{{ .Params.recipeYield }}",
   "keywords": "{{ delimit .Params.keywords ", " }}"
 }
 </script>
 {{- end -}}
-
-{{- $fdtype := .Params.fdtype | default "default" -}}
+{{- end -}}
 
 {{- if eq $fdtype "review" -}}
 <script type="application/ld+json">
@@ -82,20 +81,20 @@
   "@context": "https://schema.org",
   "@type": "Review",
   "itemReviewed": {
-    "@type": "{{ .Params.reviewedType | default "Product" }}",  <!-- Allows flexibility for types like Product, Article, etc. -->
-    "name": "{{ .Params.reviewedItem }}",                      <!-- Name of the item being reviewed -->
+    "@type": "{{ .Params.reviewedType | default "Product" }}",  
+    "name": "{{ .Params.reviewedItem }}",                      
     "description": "{{ .Params.reviewedDescription }}"
   },
   "reviewRating": {
     "@type": "Rating",
-    "ratingValue": "{{ .Params.rating }}",                      <!-- Rating value for the review -->
-    "bestRating": "{{ .Params.bestRating | default "5" }}"       <!-- Optional: Default is 5 -->
+    "ratingValue": "{{ .Params.rating }}",                      
+    "bestRating": "{{ .Params.bestRating | default "5" }}"      
   },
   "author": {
     "@type": "Person",
-    "name": "{{ partial "functions/get_author_name.html" . }}"   <!-- Reusing the author partial -->
+    "name": "{{ partial "functions/get_author_name.html" . }}"   
   },
-  "reviewBody": "{{ .Params.reviewBody }}"                      <!-- The content of the review -->
+  "reviewBody": "{{ .Params.reviewBody }}"                      
 }
 </script>
 {{- end -}}

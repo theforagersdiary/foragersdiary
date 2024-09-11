@@ -9,10 +9,10 @@ tags:
   - blackberry
   - bramble
   - meadowsweet
-  - boozetest
+  - booze
 backlinks: true
-type: docs
-layout: blogsingle
+url: /recipes/booze/:title
+
 ---
 
 ## Ingredients
