@@ -188,4 +188,4 @@ Once called the Warty Cap.[^2]
 [Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](/guides/reference/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides)
 
 [^1]: https://www.first-nature.com/
-[^2]: [index](/guides/reference/books/the-foragers-calendar-john-wright)
+[^2]: [The Foragers Calendar - John Wright](/guides/reference/books/the-foragers-calendar-john-wright)
