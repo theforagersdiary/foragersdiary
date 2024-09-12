@@ -15,6 +15,5 @@ authors:
 categories:
   - 
 tags:
-  - fungi
   - books
 ---

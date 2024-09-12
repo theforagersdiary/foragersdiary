@@ -1,6 +1,6 @@
 ---
 title: Fungi
-url: /fungi/
+url: 
 type: guides
 layout: listrecipes
 weight: 3

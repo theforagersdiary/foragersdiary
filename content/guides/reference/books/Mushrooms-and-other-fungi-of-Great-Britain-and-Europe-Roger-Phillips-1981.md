@@ -5,7 +5,7 @@ linkTitle:
 fdtype:
 layout:
 description: 
-date: yyyy-mm-dd
+date: 2024-09-12
 commentable: true
 show_breadcrumb: true
 image:
@@ -15,7 +15,6 @@ authors:
 categories:
   - 
 tags:
-  - fungi
   - books
 ---
 
