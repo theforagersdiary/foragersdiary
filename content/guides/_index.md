@@ -15,7 +15,7 @@ I've created several sections to help find your way around. Use the sections bel
 
 
 {{< cards cols=2 >}}
-  {{< card url="/guides/resources/" title="Resources" icon="document-text" subtitle="Books, websites & beginner guides" >}}
+  {{< card url="/guides/reference/" title="Reference" icon="document-text" subtitle="Books, websites & beginner guides" >}}
   {{< card url="/guides/plants/" title="Plant Guides" icon="document-text" subtitle="In depth plant guides" >}}
   {{< card url="/guides/fungi/" title="Fungi Guides" icon="document-text" subtitle="In depth fungi guides" >}}
   {{< card url="/guides/recipes/" title="Recipes" icon="document-text" subtitle="Foraging related food and booze recipes" >}}

@@ -1,7 +1,7 @@
 ---
 linkTitle: 
 title: Reference
-url: /reference/
+url:
 weight: 1
 reading_time: false
 hide_date: true
