@@ -201,8 +201,8 @@ Don't eat these.
 ---
 ### References
 
-[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](/guides/reference/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981)
+[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](guides/reference/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981/index.md)
 
-[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](/guides/reference/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides)
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](guides/reference/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides/index.md)
 
 [^1]: https://www.first-nature.com/

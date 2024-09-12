@@ -9,7 +9,7 @@ date: 2024-09-12
 commentable: true
 show_breadcrumb: true
 image:
-  preview_only: true
+  preview_only: false
 authors:
   - admin
 categories:

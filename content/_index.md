@@ -48,6 +48,7 @@ sections:
       count: 3
       filters: 
         folders:
+        tag:
         
     design:
       columns: 3

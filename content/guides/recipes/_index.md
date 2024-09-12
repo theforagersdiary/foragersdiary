@@ -1,6 +1,6 @@
 ---
 title: Recipes
-url:
+url: /recipes/
 type: guides
 layout: listrecipes
 weight: 4
@@ -37,5 +37,5 @@ sections:
       view: article-grid
       columns: 4
       spacing:
-        padding: ['0rem', 0, '6rem', 0]
+        padding: ['0rem', 4rem, '0rem', 4rem]
 ---

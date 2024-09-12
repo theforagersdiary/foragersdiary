@@ -179,16 +179,12 @@ Pink to pink/brown. Ellipsoidal. Smooth.
 
 A pleasant mildly mushroomy smell and taste with excellent texture. Dries well.
 
-## Medicinal Uses
-
 ## Notes
 
-Volvariella refers to the prominent visible volva at the base of the stipe. Bombycina is derived from the Latin 'bombycis' meaning silky.
+**Etymology:** Volvariella refers to the prominent visible volva at the base of the stipe. Bombycina is derived from the Latin 'bombycis' meaning silky.
 
 ## References
 
 Mushrooms and other fungi of Great Britain and Europe - Roger Phillips
 
 The GB Checklist of Fungal Names - British Mycological Society 
-
-[brown rollrim](/guides/fungi/brown_roll_rim/)

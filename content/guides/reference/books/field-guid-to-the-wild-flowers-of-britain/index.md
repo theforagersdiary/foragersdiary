@@ -1,7 +1,7 @@
 ---
-title: The Foragers Calendar - John Wright
+title: Field Guide To The Wild Flowers of Britain
 aliases:
-  - The Foragers Calendar - John Wright
+  - Field Guide To The Wild Flowers of Britain
 linkTitle: 
 fdtype: 
 layout: 
@@ -10,7 +10,7 @@ date: 2024-09-12
 commentable: true
 show_breadcrumb: true
 image:
-  preview_only: true
+  preview_only: false
 authors:
   - admin
 categories: 

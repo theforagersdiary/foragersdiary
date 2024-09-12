@@ -14,7 +14,6 @@ I've created several sections to help find your way around. Use the sections bel
 
 
 
-
 {{< cards cols=2 >}}
   {{< card url="/resources/" title="Resources" icon="document-text" subtitle="Books, websites & beginner guides" >}}
   {{< card url="/plants/" title="Plant Guides" icon="document-text" subtitle="In depth plant guides" >}}

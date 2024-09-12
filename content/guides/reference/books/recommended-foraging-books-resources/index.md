@@ -6,13 +6,12 @@ date: 2024-09-09
 authors:
   - admin
 tags:
-  - books
   - 
   - foraging advice
   - 
 categories:
   - 
-weight: 20
+weight: 10
 ---
 {{< toc mobile_only=false >}}
 
