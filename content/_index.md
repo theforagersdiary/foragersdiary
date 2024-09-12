@@ -45,7 +45,7 @@ sections:
     id: recentposts
     content:
       title: Recent Additions
-      count: 3
+      count: 6
       filters: 
         folders:
         tag:
