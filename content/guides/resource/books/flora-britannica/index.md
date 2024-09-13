@@ -1,8 +1,7 @@
 ---
-title: Flora Britannica
-aliases:
-  - Flora Britannica - Richard Mabey
-linkTitle: 
+url: /resources/bookshelf/flora-britannica-richard-mabey
+title: Flora Britannica - Richard Mabey
+linkTitle: Flora Britannica
 fdtype: 
 layout: 
 description: 

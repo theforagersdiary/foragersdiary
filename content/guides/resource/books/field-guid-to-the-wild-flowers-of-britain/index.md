@@ -1,8 +1,7 @@
 ---
-title: Field Guide To The Wild Flowers of Britain
-aliases:
-  - Field Guide To The Wild Flowers of Britain
-linkTitle: 
+url: /resources/bookshelf/field-guide-to-the-wild-flowers-of-britain-readers-digest
+title: Field Guide To The Wild Flowers of Britain - Readers Digest
+linkTitle: Field Guide To The Wild Flowers of Britain
 fdtype: 
 layout: 
 description: 

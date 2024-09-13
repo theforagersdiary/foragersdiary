@@ -1,4 +1,5 @@
 ---
+url: /resources/bookshelf/recommended-foraging-books
 title: Recommended foraging books
 fdtype: article
 description: Some recommended foraging books for beginners and beyond

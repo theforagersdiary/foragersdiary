@@ -1,7 +1,7 @@
 ---
-title: Mushrooms and Toadstools of Britain and Ireland
-alias: Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008
-linkTitle: 
+url: /resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides
+title: Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides
+linkTitle: Mushrooms and Toadstools of Britain and Ireland
 fdtype:
 layout:
 description: 

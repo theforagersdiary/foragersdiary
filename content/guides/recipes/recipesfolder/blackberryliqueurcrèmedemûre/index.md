@@ -1,4 +1,5 @@
 ---
+url: /recipes/blackberry-liqueur-creme-de-mure
 title: Blackberry liqueur (Crème de mûre)
 summary: Foraged blackberry liqueur (Crème de mûre) and meadowsweet recipe
 date: 2024-08-30
@@ -11,8 +12,6 @@ tags:
   - meadowsweet
   - booze
 backlinks: true
-url: /recipes/blackberry-liqueur-creme-de-mure
-
 ---
 
 ## Ingredients

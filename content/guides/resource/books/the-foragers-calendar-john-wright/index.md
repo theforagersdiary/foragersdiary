@@ -1,8 +1,7 @@
 ---
-title: The Foragers Calendar
-aliases:
-  - The Foragers Calendar - John Wright
-linkTitle: 
+url: /resources/bookshelf/the-foragers-calendar-john-wright
+title: The Foragers Calendar - John Wright
+linkTitle: The Foragers Calendar
 fdtype: 
 layout: 
 description: 

@@ -1,8 +1,7 @@
 ---
-title: The New Holistic Herbal
-aliases:
-  - The New Holistic Herbal - David Hoffman
-linkTitle: 
+url: /resources/bookshelf/the-new-holistic-herbal-david-hoffman
+title: The New Holistic Herbal - David Hoffman
+linkTitle: The New Holistic Herbal
 fdtype: 
 layout: 
 description: 

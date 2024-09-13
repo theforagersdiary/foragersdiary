@@ -1,5 +1,5 @@
 ---
-url: /fungi/silky-rosegill-volvarialla-bombycina
+url: /fungi/silky-rosegill-volvariella-bombycina
 title: Silky Rosegill
 latin_name: Volvariella bombycina
 aka:
@@ -49,14 +49,14 @@ fungi_cap_margin:
   - inrolled
 funigi_gill_density:
   - crowded
-fungi_gill_colour: 
+fungi_gill_colour:
   - white
   - pink
 fungi_gill_attachment: free
 fungi_gill_other: 
-fungi_spore_print: 
+fungi_spore_print:
   - pink
-fungi_spore_shape: 
+fungi_spore_shape:
   - ellipsoidal
   - smooth
 fungi_stipe_length: 70 - 150mm
@@ -64,13 +64,13 @@ fungi_stipe_diameter: 10 - 20mm
 fungi_stipe_colour: white
 fungi_stipe_ring:
   - no ring
-fungi_stipe_texture: 
+fungi_stipe_texture:
   - smooth
   - fibrous
-fungi_stipe_other: 
+fungi_stipe_other:
   - tapering from base
   - often curved
-fungi_stipe_base: 
+fungi_stipe_base:
   - bulbous
 fungi_stipe_base_other: 
 fungi_volva:
@@ -80,10 +80,10 @@ fungi_volva:
   - yellowing
   - brown
   - skin-like with brown scales
-fungi_flesh: 
+fungi_flesh:
   - white
   - yellowing
-fungi_smell: 
+fungi_smell:
   - pleasant
   - mushroomy
 fungi_taste: Pleasant. Mildly mushroomy. Excellent texture.
@@ -92,7 +92,6 @@ fungi_key_characteristics: |
   helo jewhdjwehd
   wehkjwdejh kjhwedh
   wedwhedkjkjwed kjwehdkjhwed
-url:
 linkTitle: 
 fdtype: article
 layout: docslisting
@@ -104,15 +103,15 @@ image:
   preview_only: true
 authors:
   - admin
-categories:
-  -
+categories: 
 tags:
   - fungi
-  - fungi with gills
+  - fungi
+  - with
+  - gills
   - edible
   - summer
   - autumn
-
 ---
 
 {{< two-columns-gallery >}}

@@ -1,8 +1,7 @@
 ---
-title: Entangled Life
-aliases:
-  - Entangled Life - Merlin Sheldrake
-linkTitle: 
+url: /resources/bookshelf/entangled-life-merlin-sheldrake
+title: Entangled Life - Merlin Sheldrake
+linkTitle: Entangled Life
 fdtype: 
 layout: 
 description: 

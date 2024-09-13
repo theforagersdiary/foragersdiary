@@ -1,7 +1,7 @@
 ---
-title: Mushrooms and other fungi of Great Britain & Europe
-alias: Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981
-linkTitle: 
+url: /resources/bookshelf/mushrooms-and-other-fungi-of-great-britain-&-europe-roger-phillips
+title: Mushrooms and other fungi of Great Britain & Europe - Roger Phillips
+linkTitle: Mushrooms and other fungi of Great Britain & Europe
 fdtype:
 layout:
 description: 

@@ -1,8 +1,7 @@
 ---
-title: Wild Flowers of Britain and Ireland
-aliases:
-  - Wild Flowers of Britain and Ireland - Blamey, Fitter, Fitter
-linkTitle: 
+url: /resources/bookshelf/wild-flowers-of-britain-and-ireland
+title: Wild Flowers of Britain and Ireland - Blamey, Fitter & Fitter
+linkTitle: Wild Flowers of Britain and Ireland
 fdtype: 
 layout: 
 description: 

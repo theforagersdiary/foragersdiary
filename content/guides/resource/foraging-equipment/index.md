@@ -1,5 +1,5 @@
 ---
-url: /resources/equipment
+url: /resources/foraging-equipment
 title: Foraging Equipment
 fdtype: article
 description: Foraging equipment, advice and tips
@@ -13,7 +13,6 @@ tags:
 categories:
   - foraging
 weight: 20
-url: 
 ---
 {{< toc mobile_only=false >}}
 
