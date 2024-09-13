@@ -1,1 +1,0 @@
-Mycorrhizal fungi - can sometimes have more than one partner simultaneously (of same or different partner species) 
