@@ -1,6 +1,6 @@
 ---
 url: /resources/the-law/knives
-title: Knives and the law - UK
+title: Knives
 fdtype: article
 description: The law in the UK regarding carrying and possesion of blades
 date: 2024-09-13

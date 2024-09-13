@@ -6,6 +6,6 @@ resources/
 public/
 jsconfig.json
 
-/content/.obsidian
-/content/templates/
-/content/notes/
+.obsidian
+content/templates/
+content/notes/

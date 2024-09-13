@@ -2,7 +2,7 @@
 url: /resources/glossary
 linkTitle: Glossary
 title: Glossary
-weight: 40
+weight: 50
 type: docs
 layout: blogsingle
 reading_time: false

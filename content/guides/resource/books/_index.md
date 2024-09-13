@@ -2,7 +2,7 @@
 url: /resources/bookshelf
 linkTitle: Bookshelf
 title: Bookshelf
-weight: 30
+weight: 40
 layout: listrecipes
 reading_time: false
 hide_date: true
