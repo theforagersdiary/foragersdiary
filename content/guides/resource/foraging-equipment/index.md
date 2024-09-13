@@ -7,9 +7,9 @@ date: 2024-09-13
 authors:
   - admin
 tags:
+  - equipment
   - foraging-101
   - foraging-advice
-  - equipment
 categories:
   - foraging
 weight: 20
