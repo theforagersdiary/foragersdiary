@@ -84,7 +84,7 @@ linkTitle:
 fdtype: article
 layout: docslisting
 description: 
-date: 2024-09-08
+date: 2024-09-13
 commentable: true
 show_breadcrumb: true
 image:
@@ -104,7 +104,7 @@ tags:
 
 **Brown Rollrim** - _Paxillus involutus_
 
-**Other names:** 
+**Other names:** Common Rollrim, Poison Pax
 
 **Season:** Summer, Autumn
 
@@ -203,8 +203,9 @@ Don't eat these.
 ---
 ### References
 
-[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](guides/resource/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981/index.md)
+[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips](https://foragersdiary.com/resources/bookshelf/mushrooms-and-other-fungi-of-great-britain-&-europe-roger-phillips/)
 
-[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](guides/resource/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides/index.md)
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides](https://foragersdiary.com/resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides/)
+
 
 [^1]: https://www.first-nature.com/

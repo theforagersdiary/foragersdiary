@@ -5,7 +5,7 @@ linkTitle: Entangled Life
 fdtype: 
 layout: 
 description: 
-date: 2024-09-12
+date: 2024-09-11
 commentable: true
 show_breadcrumb: true
 image:
@@ -15,6 +15,7 @@ authors:
 categories: 
 tags:
   - books
+  - reviews
 ---
 
 

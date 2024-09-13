@@ -96,7 +96,7 @@ linkTitle:
 fdtype: article
 layout: docslisting
 description: 
-date: 2024-09-08
+date: 2024-09-12
 commentable: true
 show_breadcrumb: true
 image:
@@ -190,6 +190,8 @@ A pleasant mildly mushroomy smell and taste with excellent texture. Dries well.
 
 ## References
 
-Mushrooms and other fungi of Great Britain and Europe - Roger Phillips
+[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips](https://foragersdiary.com/resources/bookshelf/mushrooms-and-other-fungi-of-great-britain-&-europe-roger-phillips/)
 
-The GB Checklist of Fungal Names - British Mycological Society 
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides](https://foragersdiary.com/resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides/)
+
+[The GB Checklist of Fungal Names - British Mycological Society](https://basidiochecklist.science.kew.org/BritishFungi/GBCHKLST/gbchklst.htm) 

@@ -13,7 +13,7 @@ sections:
       title: The Forager's Diary
       text: Foraging Resources | Foraging Guides | Foraging Diary
       primary_action:
-        text: Guides
+        text: Guides & Resources
         url: /guides/
         icon: hero/book-open
       secondary_action:
@@ -60,7 +60,7 @@ sections:
       text: Foraging is a gateway to a wider set of connections we have all but lost. It leads us gently to once more becoming active participants within the natural world, quietly and subtly reconnecting us to the rhythms we have become deafened too. It helps brings meaning and purpose to life by rooting us firmly back within nature. 
       button:
         text: Get Started
-        url: /guides/
+        url: /resources/
     design:
       card:
         # Card background color (CSS class)

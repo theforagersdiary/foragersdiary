@@ -184,10 +184,10 @@ Once called the Warty Cap.[^2]
 ---
 ### References
 
+[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips](https://foragersdiary.com/resources/bookshelf/mushrooms-and-other-fungi-of-great-britain-&-europe-roger-phillips/)
 
-[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](/guides/reference/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981)
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides](https://foragersdiary.com/resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides/)
 
-[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](/guides/reference/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides)
 
 [^1]: https://www.first-nature.com/
-[^2]: [The Foragers Calendar - John Wright](/guides/reference/books/the-foragers-calendar-john-wright)
+[^2]: [The Foragers Calendar - John Wright](https://foragersdiary.com/resources/bookshelf/the-foragers-calendar-john-wright/))

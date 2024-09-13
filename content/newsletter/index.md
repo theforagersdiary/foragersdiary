@@ -1,7 +1,7 @@
 ---
 title: Newsletter
-description: Sign up to the Foragers diary newsletter
-summary: Keep up to date with all the latest from the foragers diary
+description: Sign up to the Forager's diary newsletter
+summary: Keep up to date with all the latest from the forager's diary
 date: 02-09-2024
 keywords:
   - newsletter

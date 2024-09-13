@@ -14,32 +14,58 @@ categories:
   - foraging
 weight: 20
 ---
+
+*"Our life is frittered away by detail. An honest man has hardly need to count more than his ten fingers, or in extreme cases he may add his ten toes, and lump the rest. Simplicity, simplicity, simplicity! I say, let your affairs be as two or three, and not a hundred or a thousand; instead of a million count half a dozen, and keep your accounts on your thumb-nail."* [^1] <p align="right">- Henry David Thoreau</p>
+
 {{< toc mobile_only=false >}}
 
-*"Our life is frittered away by detail. Simplify, simplify, simplify! I say, let your affairs be as two or three, and not a hundred or a thousand; instead of a million count half a dozen, and keep your accounts on your thumb-nail."*  <p align="right">- Henry David Thoreau</p>
+## The Bare Necessities
+
+If you didn't just end that title singing "...of life will come to you" in your head then you might not be mad enough.
+
+The beauty of foraging is that you really don't need anything to begin - just a healthy dose of common sense and a willingness to be curious. However, here's my list of equipment I keep in my rucksack that goes pretty much everywhere with me.
+
+- ### Cotton Tote Bag
+  It scrunches up into nothing and allows the foraged material to breath and not sweat. I have a big knot in one of the handles which lets me easily hang it at my side by tucking the knot under my belt. Just be careful when kneeling/falling/sitting...more than once I've squished my prizes.
+
+- ### Folding Organiser Box from Ikea
+	This packs flat, is noticeably unnoticeably light and slides into the back of my rucksack. It's really really useful - I haven't seen anyone else use this... I should market this! It folds out and goes in my tote if I come across something a bit fragile, like fungi or berries. Plus it's washable.
+
+- ### Knife & Scissors
+	Read through the information on UK knife law [here](https://foragersdiary.com/resources/the-law/knives).
+
+  I have a small pair of modified bonsai scissors always to hand. Their light, tough, cheap, legal (in the UK at least), and gets through most plant material. I rounded the tip so they don't make a hole in me/my pocket/my rucksack, and added a few nicks to one blade before resharpening them. This allows these tiny snips to grip and cut larger material without them slip off.
+  
+	When I'm working with the public, either leading foraging courses or giving talks I only take my tiny, legal knife. But when I'm outdoors in my own time, I do have a Leatherman multitool or pocket knife to hand. Useful for harvesting fungi, slicing precocious brambles and general odds and sods.
+
+
+## Extra
+
+Most of the time I wander, so the above is all I have. However, if I'm on a more 'dedicated' foraging excursion, these are the extras I might pack.
+
+- ### Field Guides
+  Usually just [Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides](https://foragersdiary.com/resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides/) for fungi, but as a beginner I'd also recommend [The Foragers Calendar - John Wright](https://foragersdiary.com/resources/bookshelf/the-foragers-calendar-john-wright/) or a wild flower field guide.
+  
+- ### Camera
+  I was a professional photographer for many years, so it took me a while to accept my mobile phone as adequate - and it is. It's always on silent so I don't get the world encroaching on my time outdoors. Having a camera to hand, especially when starting is invaluable for recording and photographing your finds, and getting reference shots to help ID anything when your back home.
+
+- ### Paper Bags
+  Always useful for carrying smaller finds
+  
+
+## Processing
+
+There's an innumerable list of items you might want to help dry, bottle, concoct, ferment etc. your finds. The most used and useful things I have are:
+
+- ### Drying Rack
+  I have one of these:
+
+  You can find them very cheaply online, they pack up into a tiny bag and makes moving things about really easy. Mine doesn't usually get put away and always has some sort of plant matter or fungi on it in various stages of drying.
+  If I have a large quantity to dry and it's good weather (read: 'not raining or really damp') - then I might hang it outside for the day to get an initial chunk of moisture out before hanging it back up in the conservatory. And to finish it off, I have a dehumidifier that I'll pull out for a few hours if the relative humidity is a bit high.
+
+- ### Bottles, Jars and Tubs
+  Start saving your jars and bottles - they're free, and make ideal airtight storage.
 
 
 
-
-## My Ten Penneth
-
-Here's my ten penneth (two cents) as an experienced forager:
-
-- Get a good guidebook or two, get outside, and get curious. It’s as easy as that. There's a page with my recommended books and resources here: {{< card url="/resources/recommended-books" title="Foraging Books & Resources" icon="document-duplicate" >}}
-- Start small. Don’t be too ambitious. There are plenty of quick wins—species that are readily available or easily identifiable without too much prior experience or knowledge. There are no shortcuts to becoming a knowledgeable forager.
-- Let go. It’s easy to get caught up in finding a specific thing. Heading out on a foraging walk with the intention of identifying or finding a specific species is a surefire way to have an unenjoyable time, and there the path to madness lies. It will blindside you to the other discoveries available.
-- Foraging is a process, not a finish line.
-- Start at home. Get to know your local environment.
-- Foraging doesn’t need to be ‘the mission’ of an excursion. I try to take frequent walks dedicated solely to foraging—alone, without distractions. It’s an immersive, engrossing, and deeply nourishing experience. But I also have to walk the dogs every day, take a trip somewhere, or meet up with friends. I’m still foraging—simply by being curious and observant of my surroundings.
-- Get some hands-on tuition with someone who knows their shit. While you might only cover a few plant species within the hours you spend with them, the more important takeaway will be confidence, passion, and real-world advice and tips.
-- Finally, when you start, don't make it the goal to get something to shove in your gob. Make it your goal to be confident in your ID of the plants you've observed. Make it your goal to learn everything you can about them. Many plants are edible throughout their season, but most have a certain window of harvesting when they are at their best and most rewarding.
-
-By simply being curious and observant, you will already start to add to that valuable mental database (one, I guarantee, you already have something of). You’ll begin to notice and feel the patterns and rhythms of nature and the cycles of the seasons. You’ll start to see the rhythm of each plant or fungi.
-
-## My First Active Year
-
-I began foraging in very early spring, oblivious to the challenges and difficulties that this brings, and I'm actually really glad I began at this time. For the beginner forager, it’s much more difficult—nigh on impossible—to positively identify many of the staple plants before they are at a more mature stage of their growth cycle. Starting at this time meant I was already building up this knowledge database. I'd wonder what a new shoot was or what this innocuous plant was used for, and because I was taking regular walks, frequently along the same pathways, I began to see each plant develop. By the summer, I'd inadvertently tracked this growth development. I was positively identifying plants left, right, and centre. But more crucially, I was also linking these developed plants to their earlier growth cycles.
-
-I also very quickly came to realise that identical plant species can look remarkably different not just from day to day or week to week but also from place to place, even when they are right next to each other.
-
-To summarise: Don’t eat anything you aren’t willing to bet your life on; enjoy just simply being; and as Gaz Brookfield wisely puts it, “Have some respect for those around you, and try not to be a dick.”
+[^1]: Walden; or, Life in the woods
