@@ -1,6 +1,6 @@
 ---
 title: Sauces & Dressings
-url: /recipes/condiments
+url: /recipes/sauces-dressings
 layout: listrecipes
 weight: 2
 sections:

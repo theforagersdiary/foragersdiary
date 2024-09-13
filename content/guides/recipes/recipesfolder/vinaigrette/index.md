@@ -1,5 +1,5 @@
 ---
-url:
+url: /recipes/basic-vinaigrette
 title: Basic Vinaigrette
 linkTitle: 
 fdtype: 

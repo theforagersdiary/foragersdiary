@@ -1,6 +1,6 @@
 ---
 title: Recipes
-url: 
+url: /recipes/
 type: guides
 layout: listrecipes
 weight: 4

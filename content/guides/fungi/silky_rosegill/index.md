@@ -1,4 +1,5 @@
 ---
+url: /fungi/silky-rosegill-volvarialla-bombycina
 title: Silky Rosegill
 latin_name: Volvariella bombycina
 aka:
@@ -138,8 +139,13 @@ tags:
 
 {{< /two-columns-gallery >}}
 
+---
 
 The Silky Rosegill is a particularly beautiful fungi to come across. It's most commonly found growing by itself from dead deciduous wood. With careful observation, this fungi is easy to identify and it's a good edible species. However, because of its rarity, this species is best left be.
+
+---
+
+{{< toc mobile_only=false >}}
 
 ## Habitat
 

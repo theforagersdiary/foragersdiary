@@ -1,4 +1,5 @@
 ---
+url: /resources/glossary
 linkTitle: Glossary
 title: Glossary
 weight: 40

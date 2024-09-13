@@ -1,4 +1,5 @@
 ---
+url: /resources/foraging-where-to-start
 title: Foraging - Where to start?
 fdtype: article
 description: Advice on foraging and how to begin foraging
@@ -6,13 +7,12 @@ date: 2024-08-31
 authors:
   - admin
 tags:
-  - foraging 101
-  - foraging advice
-  - how to start foraging
+  - foraging-101
+  - foraging-advice
 categories:
   - foraging
 weight: 10
-url: 
+
 ---
 {{< toc mobile_only=false >}}
 

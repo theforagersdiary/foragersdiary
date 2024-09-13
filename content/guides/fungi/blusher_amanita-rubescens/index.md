@@ -1,5 +1,5 @@
 ---
-url: 
+url: /fungi/blusher-amanita-rubescens
 aliases:
   - The Blusher - Amanita rubescens
 title: Blusher
@@ -126,6 +126,8 @@ tags:
 Despite many guides claiming this fungi is not for the novice forager, The Blusher is, with a careful approach, one of the easiest to identify thanks to it's obvious set of defining characteristics, and makes for a tasty addition to the pan. This is a highly variable species in appearance, however once you've found a few, a glance is often enough to ID, even from the Panthercap. See my article here on the first foraged fungi I ever ate:
 
 ---
+
+{{< toc mobile_only=false >}}
 
 ## Habitat/Season
 

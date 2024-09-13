@@ -1,7 +1,7 @@
 ---
-title: Recommended foraging books and resources
+title: Recommended foraging books
 fdtype: article
-description: Some recommended books and resources
+description: Some recommended foraging books for beginners and beyond
 date: 2024-09-09
 authors:
   - admin

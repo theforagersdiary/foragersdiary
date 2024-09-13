@@ -1,7 +1,7 @@
 ---
 linkTitle: Plants
 title: Plants
-url:
+url: /plants/
 weight: 2
 sidebar:
   open: true

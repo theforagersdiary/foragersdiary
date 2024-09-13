@@ -1,6 +1,7 @@
 ---
-linkTitle: Books
-title: Books
+url: /resources/bookshelf
+linkTitle: Bookshelf
+title: Bookshelf
 weight: 30
 layout: listrecipes
 reading_time: false
@@ -10,9 +11,9 @@ sections:
   - block: collection
     id: books
     content:
-      title: Foraging Books
+      title: The Bookshelf
       subtitle:
-      text:
+      text: Thoughts, reviews and recommendations 
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
@@ -38,6 +39,6 @@ sections:
       view: article-grid
       columns: 4
       spacing:
-        padding: ['0rem', 4rem, '0rem', 4rem]
+        padding: ['0rem', 3rem, '0rem', 3rem]
 ---
 

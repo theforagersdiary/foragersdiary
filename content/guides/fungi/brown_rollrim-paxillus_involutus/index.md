@@ -1,5 +1,5 @@
 ---
-url: 
+url: /fungi/brown-rollrim-paxillus-involutus
 aliases:
   - Brown Rollrim - Paxillus involutus
 title: Brown Rollrim
@@ -135,6 +135,8 @@ An inviting looking mushroom with some Agatha Christie-esque poisonous tricks up
 
 ---
 
+{{< toc mobile_only=false >}}
+
 ## Habitat/Season
 
 **Habitat:** Deciduous woodland, Coniferous woodland, Parks, Gardens, Grassland, Heathland
@@ -201,8 +203,8 @@ Don't eat these.
 ---
 ### References
 
-[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](guides/reference/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981/index.md)
+[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips 1981](guides/resource/books/Mushrooms-and-other-fungi-of-Great-Britain-and-Europe-Roger-Phillips-1981/index.md)
 
-[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](guides/reference/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides/index.md)
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides 2008](guides/resource/books/Mushrooms-and-Toadstools-of-Britain-and-Ireland-Blacks-Nature-Guides/index.md)
 
 [^1]: https://www.first-nature.com/

@@ -11,7 +11,7 @@ tags:
   - meadowsweet
   - booze
 backlinks: true
-url:
+url: /recipes/blackberry-liqueur-creme-de-mure
 
 ---
 
