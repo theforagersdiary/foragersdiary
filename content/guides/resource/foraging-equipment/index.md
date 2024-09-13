@@ -32,7 +32,7 @@ The beauty of foraging is that you really don't need anything to begin - just a 
 	This packs flat, is noticeably unnoticeably light and slides into the back of my rucksack. It's really really useful - I haven't seen anyone else use this... I should market this! It folds out and goes in my tote if I come across something a bit fragile, like fungi or berries. Plus it's washable.
 
 - ### Knife & Scissors
-	Read through the information on UK knife law [here](https://foragersdiary.com/resources/the-law/knives).
+	Read through the information on UK knife law [here]({{< ref "knives-and-the-law" >}}).
 
   I have a small pair of modified bonsai scissors always to hand. Their light, tough, cheap, legal (in the UK at least), and gets through most plant material. I rounded the tip so they don't make a hole in me/my pocket/my rucksack, and added a few nicks to one blade before resharpening them. This allows these tiny snips to grip and cut larger material without them slip off.
   
@@ -44,7 +44,7 @@ The beauty of foraging is that you really don't need anything to begin - just a 
 Most of the time I wander, so the above is all I have. However, if I'm on a more 'dedicated' foraging excursion, these are the extras I might pack.
 
 - ### Field Guides
-  Usually just [Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides](https://foragersdiary.com/resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides/) for fungi, but as a beginner I'd also recommend [The Foragers Calendar - John Wright](https://foragersdiary.com/resources/bookshelf/the-foragers-calendar-john-wright/) or a wild flower field guide.
+  Usually just [Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides]({{< ref "mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides" >}}) for fungi, but as a beginner I'd also recommend [The Foragers Calendar]({{< ref "the-foragers-calendar" >}}) or a wild flower field guide.
   
 - ### Camera
   I was a professional photographer for many years, so it took me a while to accept my mobile phone as adequate - and it is. It's always on silent so I don't get the world encroaching on my time outdoors. Having a camera to hand, especially when starting is invaluable for recording and photographing your finds, and getting reference shots to help ID anything when your back home.

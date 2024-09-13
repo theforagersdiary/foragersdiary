@@ -176,7 +176,7 @@ Once used to strop barbers razors. As someone who believes a sharp knife is a sa
 ---
 ### References
 
-[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips | The Foragers Diary](https://foragersdiary.com/resources/bookshelf/mushrooms-and-other-fungi-of-great-britain-&-europe-roger-phillips/)
+[Mushrooms and other fungi of Great Britain & Europe - Roger Phillips]({{< ref "mushrooms-and-other-fungi-of-great-britain-and-europe-roger-phillips" >}})
 
-[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides | The Foragers Diary](https://foragersdiary.com/resources/bookshelf/mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides/)
+[Mushrooms and Toadstools of Britain and Ireland - Blacks Nature Guides]({{< ref "mushrooms-and-toadstools-of-britain-and-ireland-blacks-nature-guides" >}})
 
