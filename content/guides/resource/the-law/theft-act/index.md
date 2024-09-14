@@ -1,4 +1,5 @@
 ---
+draft: true
 url: /resources/the-law/theft-act
 title: The Theft Act
 fdtype: article
