@@ -63,7 +63,7 @@ tags:
 
 **Amethyst Deceiver** - _Laccaria amethystina_
 
-**Other names:** 
+**Other names:**   Agaricus _amethysteus_, Omphalia _amethystea_, _Laccaria amethystea_
 
 **Season:** Summer, Autumn
 
