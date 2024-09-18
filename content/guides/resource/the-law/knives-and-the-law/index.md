@@ -8,8 +8,7 @@ authors:
   - admin
 tags:
   - equipment
-  - foraging-101
-  - foraging-advice
+  - law
 categories:
   - foraging
 weight: 20

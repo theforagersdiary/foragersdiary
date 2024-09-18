@@ -5,7 +5,7 @@ type: guides
 layout: listrecipes
 weight: 3
 sections:
-
+  
   - block: collection
     id: fungi
     content:

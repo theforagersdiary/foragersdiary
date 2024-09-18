@@ -156,7 +156,7 @@ This species is in my list of top fungi for beginners because it is very easy to
 
 ## Edibility/Taste/Smell
 
-These smell lovely and mushroomy, and are a good edible species. The flavour has a bitterness to it.
+These smell lovely and mushroomy, and are an edible species. The flavour has a bitterness to it and is better used dried and powdered.
 
 ## Medicinal Uses
 
