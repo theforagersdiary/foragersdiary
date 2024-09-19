@@ -12,7 +12,7 @@ tags:
   - foraging-101
   - foraging-advice
 categories:
-weight: 20
+weight: 30
 ---
 
 This information applies to the UK. Please double check the relevant laws for your country.

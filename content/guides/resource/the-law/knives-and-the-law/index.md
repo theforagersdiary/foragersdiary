@@ -9,9 +9,7 @@ authors:
 tags:
   - equipment
   - law
-categories:
-  - foraging
-weight: 20
+weight: 10
 ---
 
 This information applies to the UK. Please double check the relevant laws for your country.
