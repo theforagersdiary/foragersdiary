@@ -35,7 +35,7 @@ sections:
       sort_ascending: true
     design:
       view: article-grid
-      columns: 4
+      columns: 3
       spacing:
         padding: ['0rem', 4rem, '0rem', 4rem]
 ---

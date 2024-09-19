@@ -17,7 +17,7 @@ weight: 20
 
 *"Our life is frittered away by detail. An honest man has hardly need to count more than his ten fingers, or in extreme cases he may add his ten toes, and lump the rest. Simplicity, simplicity, simplicity! I say, let your affairs be as two or three, and not a hundred or a thousand; instead of a million count half a dozen, and keep your accounts on your thumb-nail."* [^1] <p align="right">- Henry David Thoreau</p>
 
-{{< toc mobile_only=false >}}
+{{< toc mobile_only=false is_open=true >}}
 
 ## The Bare Necessities
 
