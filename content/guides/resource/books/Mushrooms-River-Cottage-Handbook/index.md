@@ -1,6 +1,6 @@
 ---
 url: /resources/bookshelf/mushrooms-river-cottage-handbook
-title: Mushrooms - River Cottage Handbook No 1 by John Wright
+title: Mushrooms - River Cottage Handbook No 1
 linkTitle: Mushrooms River Cottage Handbook
 fdtype:
 layout:
