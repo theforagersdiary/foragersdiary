@@ -74,7 +74,7 @@ f_stipe_ring:
   - hanging
   - fragile
   - grooves on upper surface
-summary: "Despite many guides claiming this fungi is not for the novice forager, The Blusher is, with a careful approach, one of the easiest to identify thanks to it's obvious set of defining characteristics, and makes for a tasty addition to the pan. This is a highly variable species in appearance, however once you've found a few, a glance is often enough to ID, even from the Panthercap. See my article here on the first foraged fungi I ever ate:"
+summary: "Despite many guides claiming this fungi is not for the novice forager, The Blusher is, with a careful approach, one of the easiest to identify thanks to it's obvious set of defining characteristics and makes for a tasty addition to the pan. This is a highly variable species in appearance, however once you've found a few, a glance is often enough to ID, even from the Panthercap."
 linkTitle: 
 fdtype: article
 layout: docslisting
@@ -123,7 +123,7 @@ tags:
 
 ---
 
-Despite many guides claiming this fungi is not for the novice forager, The Blusher is, with a careful approach, one of the easiest to identify thanks to it's obvious set of defining characteristics, and makes for a tasty addition to the pan. This is a highly variable species in appearance, however once you've found a few, a glance is often enough to ID, even from the Panthercap. See my article here on the first foraged fungi I ever ate:
+Despite many guides claiming this fungi is not for the novice forager, The Blusher is, with a careful approach, one of the easiest to identify thanks to it's obvious set of defining characteristics, and makes for a tasty addition to the pan. This is a highly variable species in appearance, however once you've found a few, a glance is often enough to ID, even from the Panthercap. See my article here on the first foraged fungi I ever ate: 
 
 ---
 

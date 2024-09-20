@@ -38,7 +38,7 @@ f_spore_print:
 f_spore_shape:
   - ellipsoidal
   - smooth
-summary: The Amethyst Deceiver is a great edible fungi thats easily identifiable. Don't let the ominous name 'deceive' you. The deception here comes from it's rapidly changing appearance from one day to the next. Whilst usually small, it makes up for this by often growing in large groups. When you find one, more will often be lurking close by.
+summary: The Amethyst Deceiver is a good edible fungus thats easily identifiable. Don't let the ominous name 'deceive' you. The deception here comes from it's rapidly changing appearance from one day to the next. Whilst usually small, it makes up for this by often growing in large groups. When you find one, more will often be lurking close by.
 linkTitle: 
 fdtype: article
 layout: docslisting
@@ -57,6 +57,9 @@ tags:
   - edible
   - summer
   - autumn
+  - white-spores
+  - adnate
+  - emarginate
 ---
 
 {{< two-columns-gallery >}}
@@ -89,7 +92,7 @@ tags:
 
 ---
 
-The Amethyst Deceiver is a great edible fungi thats easily identifiable. Don't let the name 'deceive' you. Whilst small, it makes up for this by often growing in large groups. When you find one, more will often be lurking close by.
+The Amethyst Deceiver is a great edible fungi thats easily identifiable in it's prime. Don't let the name 'deceive' you. Whilst small, it makes up for this by often growing in large groups. When you find one, more will often be lurking close by.
 
 ---
 
@@ -111,9 +114,9 @@ You will often spot these on mossy patches, mainly due to the contrast in colour
 **Cap colour:** Purple/Pale Purple
 
 The cap shape varies wildly, and a specimen can change shape/colour overnight.  
-The cap starts convex before flattening out. The cap may become upturned, show a central depression, show uneven wavy edges as it matures or a mix of one or all of these! However, it is still an easily identifiable fungi in its youth.  
-The cap and stem are purple all over. This colour can vary from deep to very light. It will also vary in shade due to moisture levels.  
-As it ages, the colour can drain and become almost a light tan with almost no sign of the purple colour.
+The cap starts convex before flattening out. The cap may become upturned, show a central depression, show uneven wavy edges as it matures or a mix of one or all of these! However, it is still an easily identifiable fungi in its prime.  
+The cap, gills and stem are purple all over. This colour can vary from deep to very light. It will also vary in shade due to moisture levels.  
+As it ages, the colour can drain and become a light tan with almost no sign of the purple colour.
 
 ## Gills/Pores/Tubes/Spore
 
@@ -123,14 +126,16 @@ As it ages, the colour can drain and become almost a light tan with almost no si
 **Spore print:** white  
 **Spore shape:** ellipsoidal, smooth
 
-The gills share the same colouring as the cap, however, surprisingly the spore print is white. A great example of not using the gill colour as an indication of spore colour.  
-They are widely spaced, irregular and broad. The colour will fade as it ages.
+The gills share the same colouring as the cap, however, surprisingly the spore print is white. A great example of not using the gill colour as a definitive indication of spore colour.  
+They are widely spaced, irregular, broad and adnate/emarginate. The colour will fade as it ages.
 
 ## Stem
 
 The stem is fibrous, sharing the same colour characteristics as the cap. Additionally, the stem will have streaks of paler purple/white/grey due to the fibrous nature.
 
 ## Possible Confusions
+
+There are several species that may appear similar at a glance, but even a rudimentary inspection is enough to tell this fungi apart. As it ages and looses it's colouring, this can prove more difficult. 
 
 ## Edibility/Taste/Smell
 
