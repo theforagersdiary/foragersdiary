@@ -1,21 +1,41 @@
-{{/*
-Docs: https://docs.hugoblox.com/content/writing-markdown-latex/
-*/}}
+{{- $pageRef := .Get "pageRef" -}}  {{/* Use pageRef for internal links */}}
+{{- $url := "" -}}
+{{- $is_external := false -}}
 
-{{- $url := .Get "url" -}}
-{{- $is_external := strings.HasPrefix $url "http" -}}
-{{- $url = cond (strings.HasPrefix $url "/") ($url | relURL) $url -}}
+{{- if $pageRef }}
+  {{- $url = $pageRef | relref . -}}  {{/* Use relref to generate the URL from the content path */}}
+{{- else }}
+  {{- $url = .Get "url" -}}  {{/* Fallback to regular URL if provided */}}
+  {{- $is_external = strings.HasPrefix $url "http" -}}
+  {{- $url = cond (strings.HasPrefix $url "/") ($url | relURL) $url -}}
+{{- end }}
 
 {{- $icon := .Get "icon" -}}
 {{- $title := .Get "title" -}}
 {{- $subtitle := .Get "subtitle" -}}
 
+{{- $internalPage := site.GetPage $pageRef -}}  {{/* Fetch the internal page based on the pageRef */}}
+
+{{- $image := "" -}}
+{{- if $internalPage }}
+  {{- $images := $internalPage.Resources.Match "*main*" -}}  {{/* Match image with 'main' in the filename */}}
+  {{- if gt (len $images) 0 -}}  {{/* Check if we have any matches */}}
+    {{- $image = index $images 0 -}}  {{/* Get the first matched image */}}
+  {{- end -}}
+{{- end -}}
+
 <a
   class="hb-card group"
   {{- if $url -}}
-    href="{{ $url }}" {{ with $is_external }}target="_blank" rel="noreferrer"{{ end -}}
+    href="{{ $url }}" {{ if $is_external }}target="_blank" rel="noreferrer"{{ end }}
   {{- end -}}
 >
+
+  {{- if $image }}    
+    <div class="aspect-ratio-16-9 mb-0">
+      <img src="{{ $image.Permalink }}" alt="{{ $title }}">
+    </div>
+  {{- end -}}
 
   {{/* Adjust padding depending on content */}}
   {{- $padding := "p-4" -}}
@@ -26,10 +46,11 @@ Docs: https://docs.hugoblox.com/content/writing-markdown-latex/
   <span class="hb-card-title {{ $padding }}">
     {{- with $icon }}
       {{ partial "functions/get_icon" (dict "name" $icon "attributes" "style=\"height: 1em; width: 1em;\"") -}}
-    {{- end -}}
+    {{- end }}
     {{- $title -}}
   </span>
-  {{- with $subtitle -}}
+  
+  {{- with $subtitle }}
     <div class="hb-card-subtitle">{{- $subtitle | markdownify -}}</div>
-  {{- end -}}
+  {{- end }}
 </a>

@@ -7,10 +7,16 @@ reading_time: false
 hide_date: true
 ---
 
-{{< cards cols=2 >}}
-  {{< card url="/resources/foraging-where-to-start" title="Where To Start?" icon="document-text" subtitle="Some advice for the complete beginner." >}}
-  {{< card url="resources/recommended-foraging-books" title="Recommended Foraging Books" icon="document-text" subtitle="Books, reviews and recommendations." >}}
-  {{< card url="/resources/the-law" title="The Law" icon="document-text" subtitle="Information on UK laws that apply to the forager." >}}
-  {{< card url="/resources/foraging-equipment" title="Foraging Equipment" icon="document-text" subtitle="In depth fungi guides." >}}
-  {{< card url="/resources/bookshelf" title="Bookshelf" icon="document-text" subtitle="Books, reviews and recommendations." >}}
+{{< cards cols=3 >}}
+
+{{< card pageRef="recommended-foraging-books-resources" title="Recommended Foraging Books" subtitle="Recommended books to get you going"  >}}
+
+{{< card pageRef="the-law" title="The Law" subtitle="Information on UK laws that apply to the forager."  >}}
+
+{{< card pageRef="foraging-equipment" title="Foraging Equipment" subtitle="Information on foraging and processing equipment"  >}}
+
+{{< card pageRef="guides/resource/books" title="Bookshelf" subtitle="Books, reviews and recommendations."  >}}
+
+{{< card pageRef="foraging-where-to-start" title="Where To Start?" subtitle="Some advice for the complete beginner."  >}}
+
 {{< /cards >}}
