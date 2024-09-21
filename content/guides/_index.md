@@ -17,7 +17,7 @@ I've created several sections to help find your way around. Use the sections bel
 {{< card pageRef="guides/fungi" title="Fungi Guides" subtitle="In-depth fungi foraging guides"  >}}
 {{< card pageRef="guides/plants" title="Plant Guides" subtitle="In-depth plant foraging guides"  >}}
 
-  {{< card url="/resources/" title="Resources" icon="document-text" subtitle="The law, books, websites & beginner guides" >}}
+  {{< card pageRef="guides/resource" title="Resources" icon="document-text" subtitle="The law, books, websites & beginner guides" >}}
 
-  {{< card url="/recipes/" title="Recipes" icon="document-text" subtitle="Foraging related food and booze recipes" >}}
+  {{< card pageRef="guides/recipes" title="Recipes" icon="document-text" subtitle="Foraging related food and booze recipes" >}}
 {{< /cards >}}
