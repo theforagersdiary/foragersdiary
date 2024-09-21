@@ -7,7 +7,7 @@ reading_time: false
 hide_date: true
 ---
 
-{{< cards cols=3 >}}
+{{< cards cols=2 >}}
 
 {{< card pageRef="recommended-foraging-books-resources" title="Recommended Foraging Books" subtitle="Recommended books to get you going"  >}}
 
