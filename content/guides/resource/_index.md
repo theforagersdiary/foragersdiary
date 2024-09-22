@@ -5,6 +5,8 @@ url: /resources/
 weight: 1
 reading_time: false
 hide_date: true
+image:
+  preview_only: true
 ---
 
 {{< cards cols=2 >}}
